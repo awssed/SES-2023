@@ -1,0 +1,26 @@
+﻿Сборка начата 08.12.2023 1:57:28.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Math\Math.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Math.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Math.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Math.cpp
+         Math.cpp
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\Math\Math.cpp(56,15): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\Lib.exe /OUT:"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Math.lib" /NOLOGO /MACHINE:X86 Debug\Math.obj
+         Math.vcxproj -> D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Math.lib
+       FinalizeBuildStatus:
+         Файл "Debug\Math.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Math.tlog\Math.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Math\Math.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Math\Math.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\Math\Math.cpp(56,15): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.03

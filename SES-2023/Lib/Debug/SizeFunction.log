@@ -1,0 +1,38 @@
+﻿Сборка начата 17.12.2023 1:47:34.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\SizeFunction.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (SizeFunction.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "Debug\Write.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Write.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt write.cpp
+         write.cpp
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(71,22): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(84,21): warning C4244: =: преобразование "int64_t" в "int", возможна потеря данных
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(95,22): warning C4244: =: преобразование "int64_t" в "int", возможна потеря данных
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(120,23): warning C4018: <: несоответствие типов со знаком и без знака
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\Lib.exe /OUT:"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Write.lib" /NOLOGO /MACHINE:X86 Debug\write.obj
+         SizeFunction.vcxproj -> D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Write.lib
+       FinalizeBuildStatus:
+         Файл "Debug\Write.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Write.tlog\Write.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\SizeFunction.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\SizeFunction.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (SizeFunction.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\SizeFunction.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(71,22): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(84,21): warning C4244: =: преобразование "int64_t" в "int", возможна потеря данных
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(95,22): warning C4244: =: преобразование "int64_t" в "int", возможна потеря данных
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\Lib\write.cpp(120,23): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 5
+    Ошибок: 0
+
+Прошло времени 00:00:01.02

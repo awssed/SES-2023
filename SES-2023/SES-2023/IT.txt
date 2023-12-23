@@ -1,0 +1,38 @@
+   id  datatype    idtype      Line     value     Scope      idTi
+length       INT         F         0         1         0
+compare      BOOL         F         0         2         0
+compS      BOOL         F         0         2         0
+print         F         0         0
+power       INT         F         0         2         0
+factor       INT         F         0         1         0
+example       INT         F         3         0         3
+    a       INT         P         3         0         example         3
+    b       INT         V         5         0         example         5
+   L0      BYTE         L         6         5         example         6
+   L2       STR         L        13      'hello world'         example        13
+    t       INT         V        14         0         example        14
+   L3      BYTE         L        15         3         example        15
+   L4      BYTE         L        17         2         example        17
+   L5      BYTE         L        20        11         example        20
+   L6      BYTE         L        22        15         example        22
+   L8       STR         L        24      't='         example        24
+  arr       INT         A        27         0         example        27
+   L9      BYTE         L        27         6         example        27
+  L10      BYTE         L        28         0         example        28
+  L11      BYTE         L        30         1         example        30
+  ind      BYTE         V        38         0         example        38
+  L13       STR         L        40      'Вывод массива:'         example        40
+ true      BOOL         L        46         1         example        46
+  L16       STR         L        48      'hello'         example        48
+  str       STR         V        51         example        51
+  L17      BYTE         L        51        10         example        51
+  L19       STR         L        52      'Введите строку(не больше 10 может поместиться)'         example        52
+  L21       STR         L        54      'Длина строки'         example        54
+  L23       STR         L        56      'Сумма чисел'         example        56
+  L25       STR         L        57      'Первая переменаня'         example        57
+ var1       INT         V        58         0         example        58
+  L27       STR         L        60      'Вторая переменная'         example        60
+ var2       INT         V        61         0         example        61
+  L29       STR         L        64      'Результат'         example        64
+  L31       STR         L        66      'Результат выражения var1+var2/3+example(4)*2*(10-5)'         example        66
+  L32      BYTE         L        67         4         example        67

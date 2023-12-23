@@ -1,0 +1,34 @@
+﻿Сборка начата 16.12.2023 1:33:01.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\CallErrors.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\CallErrors.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt CallErrors.cpp
+         CallErrors.cpp
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(9,20): warning C4129: : неизвестная escape-последовательность
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(16,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(34,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(52,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(70,21): warning C4018: <: несоответствие типов со знаком и без знака
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\Lib.exe /OUT:"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\CallErrors.lib" /NOLOGO /MACHINE:X86 Debug\CallErrors.obj
+         CallErrors.vcxproj -> D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\CallErrors.lib
+       FinalizeBuildStatus:
+         Файл "Debug\CallErrors.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\CallErrors.tlog\CallErrors.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(9,20): warning C4129: : неизвестная escape-последовательность
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(16,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(34,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(52,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\Учёба\3сем\КПО\SES-2023\SES-2023\CallErrors\CallErrors.cpp(70,21): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 5
+    Ошибок: 0
+
+Прошло времени 00:00:00.97

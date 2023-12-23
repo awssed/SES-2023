@@ -1,0 +1,21 @@
+﻿Сборка начата 17.12.2023 17:55:28.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Asm\Asm.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Asm.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling Asm.asm...
+         cmd.exe /C "C:\Users\HP\AppData\Local\Temp\tmp2ea9e25d06d7402e9e5e6aeae01b7b8c.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Asm.obj" /W3 /errorReport:prompt  /TaAsm.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Asm.exe" /INCREMENTAL /ILK:"Debug\Asm.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Asm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Asm.lib" /MACHINE:X86 Debug\Asm.obj
+         Asm.vcxproj -> D:\Учёба\3сем\КПО\SES-2023\SES-2023\Debug\Asm.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Asm.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Asm.tlog\Asm.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\КПО\SES-2023\SES-2023\Asm\Asm.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.40

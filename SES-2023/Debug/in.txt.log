@@ -1,0 +1,377 @@
+----Протокол----18.12.2023 23:16:56
+----Параметры----
+-log:in.txt.log
+-out: in.txt.out
+-in: in.txt
+----Исходные данные----
+Количество символов: 165
+Проигнорировано: 4
+Количество строк: 22
+Шаг : Правило             Входная лента                 Стек               
+0   : S->fti(W){Niq}S     fti(ti){tiz(il<){lq}z(il=     S!                  
+0   : SAVESTATE:          1
+0   :                     fti(ti){tiz(il<){lq}z(il=     fti(W){Niq}S!       
+1   :                     ti(ti){tiz(il<){lq}z(il=)     ti(W){Niq}S!        
+2   :                     i(ti){tiz(il<){lq}z(il=){     i(W){Niq}S!         
+3   :                     (ti){tiz(il<){lq}z(il=){l     (W){Niq}S!          
+4   :                     ti){tiz(il<){lq}z(il=){lq     W){Niq}S!           
+5   : W->ti               ti){tiz(il<){lq}z(il=){lq     W){Niq}S!           
+5   : SAVESTATE:          2
+5   :                     ti){tiz(il<){lq}z(il=){lq     ti){Niq}S!          
+6   :                     i){tiz(il<){lq}z(il=){lq}     i){Niq}S!           
+7   :                     ){tiz(il<){lq}z(il=){lq}i     ){Niq}S!            
+8   :                     {tiz(il<){lq}z(il=){lq}ii     {Niq}S!             
+9   :                     tiz(il<){lq}z(il=){lq}iil     Niq}S!              
+10  : N->ti               tiz(il<){lq}z(il=){lq}iil     Niq}S!              
+10  : SAVESTATE:          3
+10  :                     tiz(il<){lq}z(il=){lq}iil     tiiq}S!             
+11  :                     iz(il<){lq}z(il=){lq}iil-     iiq}S!              
+12  :                     z(il<){lq}z(il=){lq}iil-i     iq}S!               
+13  : 2                   
+13  : RESSTATE            
+13  :                     tiz(il<){lq}z(il=){lq}iil     Niq}S!              
+14  : N->tiN              tiz(il<){lq}z(il=){lq}iil     Niq}S!              
+14  : SAVESTATE:          3
+14  :                     tiz(il<){lq}z(il=){lq}iil     tiNiq}S!            
+15  :                     iz(il<){lq}z(il=){lq}iil-     iNiq}S!             
+16  :                     z(il<){lq}z(il=){lq}iil-i     Niq}S!              
+17  : N->z(N){N}N         z(il<){lq}z(il=){lq}iil-i     Niq}S!              
+17  : SAVESTATE:          4
+17  :                     z(il<){lq}z(il=){lq}iil-i     z(N){N}Niq}S!       
+18  :                     (il<){lq}z(il=){lq}iil-i*     (N){N}Niq}S!        
+19  :                     il<){lq}z(il=){lq}iil-i*i     N){N}Niq}S!         
+20  : N->i                il<){lq}z(il=){lq}iil-i*i     N){N}Niq}S!         
+20  : SAVESTATE:          5
+20  :                     il<){lq}z(il=){lq}iil-i*i     i){N}Niq}S!         
+21  :                     l<){lq}z(il=){lq}iil-i*i$     ){N}Niq}S!          
+22  : 2                   
+22  : RESSTATE            
+22  :                     il<){lq}z(il=){lq}iil-i*i     N){N}Niq}S!         
+23  : N->iN               il<){lq}z(il=){lq}iil-i*i     N){N}Niq}S!         
+23  : SAVESTATE:          5
+23  :                     il<){lq}z(il=){lq}iil-i*i     iN){N}Niq}S!        
+24  :                     l<){lq}z(il=){lq}iil-i*i$     N){N}Niq}S!         
+25  : N->l                l<){lq}z(il=){lq}iil-i*i$     N){N}Niq}S!         
+25  : SAVESTATE:          6
+25  :                     l<){lq}z(il=){lq}iil-i*i$     l){N}Niq}S!         
+26  :                     <){lq}z(il=){lq}iil-i*i$i     ){N}Niq}S!          
+27  : 2                   
+27  : RESSTATE            
+27  :                     l<){lq}z(il=){lq}iil-i*i$     N){N}Niq}S!         
+28  : N->lN               l<){lq}z(il=){lq}iil-i*i$     N){N}Niq}S!         
+28  : SAVESTATE:          6
+28  :                     l<){lq}z(il=){lq}iil-i*i$     lN){N}Niq}S!        
+29  :                     <){lq}z(il=){lq}iil-i*i$i     N){N}Niq}S!         
+30  : N-><                <){lq}z(il=){lq}iil-i*i$i     N){N}Niq}S!         
+30  : SAVESTATE:          7
+30  :                     <){lq}z(il=){lq}iil-i*i$i     <){N}Niq}S!         
+31  :                     ){lq}z(il=){lq}iil-i*i$iq     ){N}Niq}S!          
+32  :                     {lq}z(il=){lq}iil-i*i$iq}     {N}Niq}S!           
+33  :                     lq}z(il=){lq}iil-i*i$iq}m     N}Niq}S!            
+34  : N->l                lq}z(il=){lq}iil-i*i$iq}m     N}Niq}S!            
+34  : SAVESTATE:          8
+34  :                     lq}z(il=){lq}iil-i*i$iq}m     l}Niq}S!            
+35  :                     q}z(il=){lq}iil-i*i$iq}m{     }Niq}S!             
+36  : 2                   
+36  : RESSTATE            
+36  :                     lq}z(il=){lq}iil-i*i$iq}m     N}Niq}S!            
+37  : N->lN               lq}z(il=){lq}iil-i*i$iq}m     N}Niq}S!            
+37  : SAVESTATE:          8
+37  :                     lq}z(il=){lq}iil-i*i$iq}m     lN}Niq}S!           
+38  :                     q}z(il=){lq}iil-i*i$iq}m{     N}Niq}S!            
+39  : TNS_NORULECHAIN/NS_NORULE
+39  : RESSTATE            
+39  :                     lq}z(il=){lq}iil-i*i$iq}m     N}Niq}S!            
+40  : N->lq               lq}z(il=){lq}iil-i*i$iq}m     N}Niq}S!            
+40  : SAVESTATE:          8
+40  :                     lq}z(il=){lq}iil-i*i$iq}m     lq}Niq}S!           
+41  :                     q}z(il=){lq}iil-i*i$iq}m{     q}Niq}S!            
+42  :                     }z(il=){lq}iil-i*i$iq}m{t     }Niq}S!             
+43  :                     z(il=){lq}iil-i*i$iq}m{ti     Niq}S!              
+44  : N->z(N){N}N         z(il=){lq}iil-i*i$iq}m{ti     Niq}S!              
+44  : SAVESTATE:          9
+44  :                     z(il=){lq}iil-i*i$iq}m{ti     z(N){N}Niq}S!       
+45  :                     (il=){lq}iil-i*i$iq}m{tii     (N){N}Niq}S!        
+46  :                     il=){lq}iil-i*i$iq}m{tiin     N){N}Niq}S!         
+47  : N->i                il=){lq}iil-i*i$iq}m{tiin     N){N}Niq}S!         
+47  : SAVESTATE:          10
+47  :                     il=){lq}iil-i*i$iq}m{tiin     i){N}Niq}S!         
+48  :                     l=){lq}iil-i*i$iq}m{tiini     ){N}Niq}S!          
+49  : 2                   
+49  : RESSTATE            
+49  :                     il=){lq}iil-i*i$iq}m{tiin     N){N}Niq}S!         
+50  : N->iN               il=){lq}iil-i*i$iq}m{tiin     N){N}Niq}S!         
+50  : SAVESTATE:          10
+50  :                     il=){lq}iil-i*i$iq}m{tiin     iN){N}Niq}S!        
+51  :                     l=){lq}iil-i*i$iq}m{tiini     N){N}Niq}S!         
+52  : N->l                l=){lq}iil-i*i$iq}m{tiini     N){N}Niq}S!         
+52  : SAVESTATE:          11
+52  :                     l=){lq}iil-i*i$iq}m{tiini     l){N}Niq}S!         
+53  :                     =){lq}iil-i*i$iq}m{tiinii     ){N}Niq}S!          
+54  : 2                   
+54  : RESSTATE            
+54  :                     l=){lq}iil-i*i$iq}m{tiini     N){N}Niq}S!         
+55  : N->lN               l=){lq}iil-i*i$iq}m{tiini     N){N}Niq}S!         
+55  : SAVESTATE:          11
+55  :                     l=){lq}iil-i*i$iq}m{tiini     lN){N}Niq}S!        
+56  :                     =){lq}iil-i*i$iq}m{tiinii     N){N}Niq}S!         
+57  : N->=                =){lq}iil-i*i$iq}m{tiinii     N){N}Niq}S!         
+57  : SAVESTATE:          12
+57  :                     =){lq}iil-i*i$iq}m{tiinii     =){N}Niq}S!         
+58  :                     ){lq}iil-i*i$iq}m{tiiniix     ){N}Niq}S!          
+59  :                     {lq}iil-i*i$iq}m{tiiniix}     {N}Niq}S!           
+60  :                     lq}iil-i*i$iq}m{tiiniix}      N}Niq}S!            
+61  : N->l                lq}iil-i*i$iq}m{tiiniix}      N}Niq}S!            
+61  : SAVESTATE:          13
+61  :                     lq}iil-i*i$iq}m{tiiniix}      l}Niq}S!            
+62  :                     q}iil-i*i$iq}m{tiiniix}       }Niq}S!             
+63  : 2                   
+63  : RESSTATE            
+63  :                     lq}iil-i*i$iq}m{tiiniix}      N}Niq}S!            
+64  : N->lN               lq}iil-i*i$iq}m{tiiniix}      N}Niq}S!            
+64  : SAVESTATE:          13
+64  :                     lq}iil-i*i$iq}m{tiiniix}      lN}Niq}S!           
+65  :                     q}iil-i*i$iq}m{tiiniix}       N}Niq}S!            
+66  : TNS_NORULECHAIN/NS_NORULE
+66  : RESSTATE            
+66  :                     lq}iil-i*i$iq}m{tiiniix}      N}Niq}S!            
+67  : N->lq               lq}iil-i*i$iq}m{tiiniix}      N}Niq}S!            
+67  : SAVESTATE:          13
+67  :                     lq}iil-i*i$iq}m{tiiniix}      lq}Niq}S!           
+68  :                     q}iil-i*i$iq}m{tiiniix}       q}Niq}S!            
+69  :                     }iil-i*i$iq}m{tiiniix}        }Niq}S!             
+70  :                     iil-i*i$iq}m{tiiniix}         Niq}S!              
+71  : N->i                iil-i*i$iq}m{tiiniix}         Niq}S!              
+71  : SAVESTATE:          14
+71  :                     iil-i*i$iq}m{tiiniix}         iiq}S!              
+72  :                     il-i*i$iq}m{tiiniix}          iq}S!               
+73  :                     l-i*i$iq}m{tiiniix}           q}S!                
+74  : 2                   
+74  : RESSTATE            
+74  :                     iil-i*i$iq}m{tiiniix}         Niq}S!              
+75  : N->iN               iil-i*i$iq}m{tiiniix}         Niq}S!              
+75  : SAVESTATE:          14
+75  :                     iil-i*i$iq}m{tiiniix}         iNiq}S!             
+76  :                     il-i*i$iq}m{tiiniix}          Niq}S!              
+77  : N->i                il-i*i$iq}m{tiiniix}          Niq}S!              
+77  : SAVESTATE:          15
+77  :                     il-i*i$iq}m{tiiniix}          iiq}S!              
+78  :                     l-i*i$iq}m{tiiniix}           iq}S!               
+79  : 2                   
+79  : RESSTATE            
+79  :                     il-i*i$iq}m{tiiniix}          Niq}S!              
+80  : N->iN               il-i*i$iq}m{tiiniix}          Niq}S!              
+80  : SAVESTATE:          15
+80  :                     il-i*i$iq}m{tiiniix}          iNiq}S!             
+81  :                     l-i*i$iq}m{tiiniix}           Niq}S!              
+82  : N->l                l-i*i$iq}m{tiiniix}           Niq}S!              
+82  : SAVESTATE:          16
+82  :                     l-i*i$iq}m{tiiniix}           liq}S!              
+83  :                     -i*i$iq}m{tiiniix}            iq}S!               
+84  : 2                   
+84  : RESSTATE            
+84  :                     l-i*i$iq}m{tiiniix}           Niq}S!              
+85  : N->lN               l-i*i$iq}m{tiiniix}           Niq}S!              
+85  : SAVESTATE:          16
+85  :                     l-i*i$iq}m{tiiniix}           lNiq}S!             
+86  :                     -i*i$iq}m{tiiniix}            Niq}S!              
+87  : N->-                -i*i$iq}m{tiiniix}            Niq}S!              
+87  : SAVESTATE:          17
+87  :                     -i*i$iq}m{tiiniix}            -iq}S!              
+88  :                     i*i$iq}m{tiiniix}             iq}S!               
+89  :                     *i$iq}m{tiiniix}              q}S!                
+90  : 2                   
+90  : RESSTATE            
+90  :                     -i*i$iq}m{tiiniix}            Niq}S!              
+91  : N->-N               -i*i$iq}m{tiiniix}            Niq}S!              
+91  : SAVESTATE:          17
+91  :                     -i*i$iq}m{tiiniix}            -Niq}S!             
+92  :                     i*i$iq}m{tiiniix}             Niq}S!              
+93  : N->i                i*i$iq}m{tiiniix}             Niq}S!              
+93  : SAVESTATE:          18
+93  :                     i*i$iq}m{tiiniix}             iiq}S!              
+94  :                     *i$iq}m{tiiniix}              iq}S!               
+95  : 2                   
+95  : RESSTATE            
+95  :                     i*i$iq}m{tiiniix}             Niq}S!              
+96  : N->iN               i*i$iq}m{tiiniix}             Niq}S!              
+96  : SAVESTATE:          18
+96  :                     i*i$iq}m{tiiniix}             iNiq}S!             
+97  :                     *i$iq}m{tiiniix}              Niq}S!              
+98  : N->*                *i$iq}m{tiiniix}              Niq}S!              
+98  : SAVESTATE:          19
+98  :                     *i$iq}m{tiiniix}              *iq}S!              
+99  :                     i$iq}m{tiiniix}               iq}S!               
+100 :                     $iq}m{tiiniix}                q}S!                
+101 : 2                   
+101 : RESSTATE            
+101 :                     *i$iq}m{tiiniix}              Niq}S!              
+102 : N->*N               *i$iq}m{tiiniix}              Niq}S!              
+102 : SAVESTATE:          19
+102 :                     *i$iq}m{tiiniix}              *Niq}S!             
+103 :                     i$iq}m{tiiniix}               Niq}S!              
+104 : N->i                i$iq}m{tiiniix}               Niq}S!              
+104 : SAVESTATE:          20
+104 :                     i$iq}m{tiiniix}               iiq}S!              
+105 :                     $iq}m{tiiniix}                iq}S!               
+106 : 2                   
+106 : RESSTATE            
+106 :                     i$iq}m{tiiniix}               Niq}S!              
+107 : N->iN               i$iq}m{tiiniix}               Niq}S!              
+107 : SAVESTATE:          20
+107 :                     i$iq}m{tiiniix}               iNiq}S!             
+108 :                     $iq}m{tiiniix}                Niq}S!              
+109 : TNS_NORULECHAIN/NS_NORULE
+109 : RESSTATE            
+109 :                     i$iq}m{tiiniix}               Niq}S!              
+110 : N->i$               i$iq}m{tiiniix}               Niq}S!              
+110 : SAVESTATE:          20
+110 :                     i$iq}m{tiiniix}               i$iq}S!             
+111 :                     $iq}m{tiiniix}                $iq}S!              
+112 :                     iq}m{tiiniix}                 iq}S!               
+113 :                     q}m{tiiniix}                  q}S!                
+114 :                     }m{tiiniix}                   }S!                 
+115 :                     m{tiiniix}                    S!                  
+116 : S->m{N}             m{tiiniix}                    S!                  
+116 : SAVESTATE:          21
+116 :                     m{tiiniix}                    m{N}!               
+117 :                     {tiiniix}                     {N}!                
+118 :                     tiiniix}                      N}!                 
+119 : N->ti               tiiniix}                      N}!                 
+119 : SAVESTATE:          22
+119 :                     tiiniix}                      ti}!                
+120 :                     iiniix}                       i}!                 
+121 :                     iniix}                        }!                  
+122 : 2                   
+122 : RESSTATE            
+122 :                     tiiniix}                      N}!                 
+123 : N->tiN              tiiniix}                      N}!                 
+123 : SAVESTATE:          22
+123 :                     tiiniix}                      tiN}!               
+124 :                     iiniix}                       iN}!                
+125 :                     iniix}                        N}!                 
+126 : N->i                iniix}                        N}!                 
+126 : SAVESTATE:          23
+126 :                     iniix}                        i}!                 
+127 :                     niix}                         }!                  
+128 : 2                   
+128 : RESSTATE            
+128 :                     iniix}                        N}!                 
+129 : N->iN               iniix}                        N}!                 
+129 : SAVESTATE:          23
+129 :                     iniix}                        iN}!                
+130 :                     niix}                         N}!                 
+131 : TNS_NORULECHAIN/NS_NORULE
+131 : RESSTATE            
+131 :                     iniix}                        N}!                 
+132 : N->i$               iniix}                        N}!                 
+132 : SAVESTATE:          23
+132 :                     iniix}                        i$}!                
+133 :                     niix}                         $}!                 
+134 : 2                   
+134 : RESSTATE            
+134 :                     iniix}                        N}!                 
+135 : N->i$N              iniix}                        N}!                 
+135 : SAVESTATE:          23
+135 :                     iniix}                        i$N}!               
+136 :                     niix}                         $N}!                
+137 : 2                   
+137 : RESSTATE            
+137 :                     iniix}                        N}!                 
+138 : N->ii@$             iniix}                        N}!                 
+138 : SAVESTATE:          23
+138 :                     iniix}                        ii@$}!              
+139 :                     niix}                         i@$}!               
+140 : 2                   
+140 : RESSTATE            
+140 :                     iniix}                        N}!                 
+141 : N->ii@$N            iniix}                        N}!                 
+141 : SAVESTATE:          23
+141 :                     iniix}                        ii@$N}!             
+142 :                     niix}                         i@$N}!              
+143 : 2                   
+143 : RESSTATE            
+143 :                     iniix}                        N}!                 
+144 : N->il@$             iniix}                        N}!                 
+144 : SAVESTATE:          23
+144 :                     iniix}                        il@$}!              
+145 :                     niix}                         l@$}!               
+146 : 2                   
+146 : RESSTATE            
+146 :                     iniix}                        N}!                 
+147 : N->il@$N            iniix}                        N}!                 
+147 : SAVESTATE:          23
+147 :                     iniix}                        il@$N}!             
+148 :                     niix}                         l@$N}!              
+149 : 2                   
+149 : RESSTATE            
+149 :                     iniix}                        N}!                 
+150 : N->in               iniix}                        N}!                 
+150 : SAVESTATE:          23
+150 :                     iniix}                        in}!                
+151 :                     niix}                         n}!                 
+152 :                     iix}                          }!                  
+153 : 2                   
+153 : RESSTATE            
+153 :                     iniix}                        N}!                 
+154 : N->inN              iniix}                        N}!                 
+154 : SAVESTATE:          23
+154 :                     iniix}                        inN}!               
+155 :                     niix}                         nN}!                
+156 :                     iix}                          N}!                 
+157 : N->i                iix}                          N}!                 
+157 : SAVESTATE:          24
+157 :                     iix}                          i}!                 
+158 :                     ix}                           }!                  
+159 : 2                   
+159 : RESSTATE            
+159 :                     iix}                          N}!                 
+160 : N->iN               iix}                          N}!                 
+160 : SAVESTATE:          24
+160 :                     iix}                          iN}!                
+161 :                     ix}                           N}!                 
+162 : N->i                ix}                           N}!                 
+162 : SAVESTATE:          25
+162 :                     ix}                           i}!                 
+163 :                     x}                            }!                  
+164 : 2                   
+164 : RESSTATE            
+164 :                     ix}                           N}!                 
+165 : N->iN               ix}                           N}!                 
+165 : SAVESTATE:          25
+165 :                     ix}                           iN}!                
+166 :                     x}                            N}!                 
+167 : N->x                x}                            N}!                 
+167 : SAVESTATE:          26
+167 :                     x}                            x}!                 
+168 :                     }                             }!                  
+169 :                                                   !                   
+170 : 6                   
+171 : ------>LENTA_END    
+------------------------------------------------------------------------------------------   ------
+0   : S->fti(W){Niq}S     
+4   : W->ti               
+8   : N->tiN              
+10  : N->z(N){N}N         
+12  : N->iN               
+13  : N->lN               
+14  : N-><                
+17  : N->lq               
+20  : N->z(N){N}N         
+22  : N->iN               
+23  : N->lN               
+24  : N->=                
+27  : N->lq               
+30  : N->iN               
+31  : N->iN               
+32  : N->lN               
+33  : N->-N               
+34  : N->iN               
+35  : N->*N               
+36  : N->i$               
+41  : S->m{N}             
+43  : N->tiN              
+45  : N->inN              
+47  : N->iN               
+48  : N->iN               
+49  : N->x                

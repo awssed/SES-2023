@@ -1,0 +1,23 @@
+﻿Сборка начата 01.12.2023 22:23:48.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КПО\SES-2023\SizeFunction\SizeFunction\SizeFunction.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\Учёба\3сем\КПО\SES-2023\SizeFunction\x64\Debug\".
+         Создание каталога "x64\Debug\SizeFunction.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SizeFunction.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"D:\Учёба\3сем\КПО\SES-2023\SizeFunction\x64\Debug\SizeFunction.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt getSize.cpp
+         getSize.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\Lib.exe /OUT:"D:\Учёба\3сем\КПО\SES-2023\SizeFunction\x64\Debug\SizeFunction.lib" /NOLOGO /MACHINE:X64 x64\Debug\getSize.obj
+         SizeFunction.vcxproj -> D:\Учёба\3сем\КПО\SES-2023\SizeFunction\x64\Debug\SizeFunction.lib
+       FinalizeBuildStatus:
+         Файл "x64\Debug\SizeFunction.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\SizeFunction.tlog\SizeFunction.lastbuildstate".
+     1>Сборка проекта "D:\Учёба\3сем\КПО\SES-2023\SizeFunction\SizeFunction\SizeFunction.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.28

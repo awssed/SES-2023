@@ -1,0 +1,72 @@
+
+
+function int example(int a)
+{
+int b
+5 b $
+b a+
+b $
+b return
+}
+
+{
+'hello world' print
+int t
+3 factor
+t $
+2 t power
+dup writeline
+t $
+11
+example t $
+if(15 t <)
+{
+'t=' print
+t writeline
+}
+array int arr[6]
+while(0 t <)
+{
+t 1 - 
+t $
+t writeline
+if(t 6 <)
+{
+t arr[t] $
+}
+}
+byte ind
+0 ind $
+'Вывод массива:' print
+while(ind 6 <)
+{
+arr[ind] writeline
+ind 1+
+ind $
+if(true)
+{
+'hello' print
+}
+}
+string str[10]
+'Введите строку(не больше 10 может поместиться)' print
+str read
+'Длина строки' print
+str length writeline
+'Сумма чисел' print
+'Первая переменаня' print
+int var1
+var1 read
+'Вторая переменная' print
+int var2
+var2 read
+var1 var2 + 
+'Результат' print
+print
+'Результат выражения var1+var2/3+example(4)*2*(10-5)' print
+var1 var2 3 / 4 example  2 10 5 - * * + + 
+print
+}
+
+Library 0:  string.lib
+Library 1:  math.lib

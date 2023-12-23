@@ -1,0 +1,1427 @@
+----Протокол----18.12.2023 11:40:56
+----Параметры----
+-log:in.txt.log
+-out: in.txt.out
+-in: in.txt
+----Исходные данные----
+Количество символов: 809
+Проигнорировано: 7
+Количество строк: 69
+Шаг : Правило             Входная лента                 Стек               
+0   : S->fti(W){Niq}S     fti(ti){tili$ii+i$iq}{lit     S!                  
+0   : SAVESTATE:          1
+0   :                     fti(ti){tili$ii+i$iq}{lit     fti(W){Niq}S!       
+1   :                     ti(ti){tili$ii+i$iq}{liti     ti(W){Niq}S!        
+2   :                     i(ti){tili$ii+i$iq}{litil     i(W){Niq}S!         
+3   :                     (ti){tili$ii+i$iq}{litili     (W){Niq}S!          
+4   :                     ti){tili$ii+i$iq}{litilii     W){Niq}S!           
+5   : W->ti               ti){tili$ii+i$iq}{litilii     W){Niq}S!           
+5   : SAVESTATE:          2
+5   :                     ti){tili$ii+i$iq}{litilii     ti){Niq}S!          
+6   :                     i){tili$ii+i$iq}{litilii$     i){Niq}S!           
+7   :                     ){tili$ii+i$iq}{litilii$l     ){Niq}S!            
+8   :                     {tili$ii+i$iq}{litilii$li     {Niq}S!             
+9   :                     tili$ii+i$iq}{litilii$lii     Niq}S!              
+10  : N->ti               tili$ii+i$iq}{litilii$lii     Niq}S!              
+10  : SAVESTATE:          3
+10  :                     tili$ii+i$iq}{litilii$lii     tiiq}S!             
+11  :                     ili$ii+i$iq}{litilii$liid     iiq}S!              
+12  :                     li$ii+i$iq}{litilii$liidx     iq}S!               
+13  : 2                   
+13  : RESSTATE            
+13  :                     tili$ii+i$iq}{litilii$lii     Niq}S!              
+14  : N->tiN              tili$ii+i$iq}{litilii$lii     Niq}S!              
+14  : SAVESTATE:          3
+14  :                     tili$ii+i$iq}{litilii$lii     tiNiq}S!            
+15  :                     ili$ii+i$iq}{litilii$liid     iNiq}S!             
+16  :                     li$ii+i$iq}{litilii$liidx     Niq}S!              
+17  : N->l                li$ii+i$iq}{litilii$liidx     Niq}S!              
+17  : SAVESTATE:          4
+17  :                     li$ii+i$iq}{litilii$liidx     liq}S!              
+18  :                     i$ii+i$iq}{litilii$liidxi     iq}S!               
+19  :                     $ii+i$iq}{litilii$liidxi$     q}S!                
+20  : 2                   
+20  : RESSTATE            
+20  :                     li$ii+i$iq}{litilii$liidx     Niq}S!              
+21  : N->lN               li$ii+i$iq}{litilii$liidx     Niq}S!              
+21  : SAVESTATE:          4
+21  :                     li$ii+i$iq}{litilii$liidx     lNiq}S!             
+22  :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+23  : N->i                i$ii+i$iq}{litilii$liidxi     Niq}S!              
+23  : SAVESTATE:          5
+23  :                     i$ii+i$iq}{litilii$liidxi     iiq}S!              
+24  :                     $ii+i$iq}{litilii$liidxi$     iq}S!               
+25  : 2                   
+25  : RESSTATE            
+25  :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+26  : N->iN               i$ii+i$iq}{litilii$liidxi     Niq}S!              
+26  : SAVESTATE:          5
+26  :                     i$ii+i$iq}{litilii$liidxi     iNiq}S!             
+27  :                     $ii+i$iq}{litilii$liidxi$     Niq}S!              
+28  : TNS_NORULECHAIN/NS_NORULE
+28  : RESSTATE            
+28  :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+29  : N->i$               i$ii+i$iq}{litilii$liidxi     Niq}S!              
+29  : SAVESTATE:          5
+29  :                     i$ii+i$iq}{litilii$liidxi     i$iq}S!             
+30  :                     $ii+i$iq}{litilii$liidxi$     $iq}S!              
+31  :                     ii+i$iq}{litilii$liidxi$l     iq}S!               
+32  :                     i+i$iq}{litilii$liidxi$li     q}S!                
+33  : 2                   
+33  : RESSTATE            
+33  :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+34  : N->i$N              i$ii+i$iq}{litilii$liidxi     Niq}S!              
+34  : SAVESTATE:          5
+34  :                     i$ii+i$iq}{litilii$liidxi     i$Niq}S!            
+35  :                     $ii+i$iq}{litilii$liidxi$     $Niq}S!             
+36  :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+37  : N->i                ii+i$iq}{litilii$liidxi$l     Niq}S!              
+37  : SAVESTATE:          6
+37  :                     ii+i$iq}{litilii$liidxi$l     iiq}S!              
+38  :                     i+i$iq}{litilii$liidxi$li     iq}S!               
+39  :                     +i$iq}{litilii$liidxi$lii     q}S!                
+40  : 2                   
+40  : RESSTATE            
+40  :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+41  : N->iN               ii+i$iq}{litilii$liidxi$l     Niq}S!              
+41  : SAVESTATE:          6
+41  :                     ii+i$iq}{litilii$liidxi$l     iNiq}S!             
+42  :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+43  : N->i                i+i$iq}{litilii$liidxi$li     Niq}S!              
+43  : SAVESTATE:          7
+43  :                     i+i$iq}{litilii$liidxi$li     iiq}S!              
+44  :                     +i$iq}{litilii$liidxi$lii     iq}S!               
+45  : 2                   
+45  : RESSTATE            
+45  :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+46  : N->iN               i+i$iq}{litilii$liidxi$li     Niq}S!              
+46  : SAVESTATE:          7
+46  :                     i+i$iq}{litilii$liidxi$li     iNiq}S!             
+47  :                     +i$iq}{litilii$liidxi$lii     Niq}S!              
+48  : N->+                +i$iq}{litilii$liidxi$lii     Niq}S!              
+48  : SAVESTATE:          8
+48  :                     +i$iq}{litilii$liidxi$lii     +iq}S!              
+49  :                     i$iq}{litilii$liidxi$lii$     iq}S!               
+50  :                     $iq}{litilii$liidxi$lii$z     q}S!                
+51  : 2                   
+51  : RESSTATE            
+51  :                     +i$iq}{litilii$liidxi$lii     Niq}S!              
+52  : N->+N               +i$iq}{litilii$liidxi$lii     Niq}S!              
+52  : SAVESTATE:          8
+52  :                     +i$iq}{litilii$liidxi$lii     +Niq}S!             
+53  :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+54  : N->i                i$iq}{litilii$liidxi$lii$     Niq}S!              
+54  : SAVESTATE:          9
+54  :                     i$iq}{litilii$liidxi$lii$     iiq}S!              
+55  :                     $iq}{litilii$liidxi$lii$z     iq}S!               
+56  : 2                   
+56  : RESSTATE            
+56  :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+57  : N->iN               i$iq}{litilii$liidxi$lii$     Niq}S!              
+57  : SAVESTATE:          9
+57  :                     i$iq}{litilii$liidxi$lii$     iNiq}S!             
+58  :                     $iq}{litilii$liidxi$lii$z     Niq}S!              
+59  : TNS_NORULECHAIN/NS_NORULE
+59  : RESSTATE            
+59  :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+60  : N->i$               i$iq}{litilii$liidxi$lii$     Niq}S!              
+60  : SAVESTATE:          9
+60  :                     i$iq}{litilii$liidxi$lii$     i$iq}S!             
+61  :                     $iq}{litilii$liidxi$lii$z     $iq}S!              
+62  :                     iq}{litilii$liidxi$lii$z(     iq}S!               
+63  :                     q}{litilii$liidxi$lii$z(l     q}S!                
+64  :                     }{litilii$liidxi$lii$z(li     }S!                 
+65  :                     {litilii$liidxi$lii$z(li<     S!                  
+66  : TNS_NORULECHAIN/NS_NORULE
+66  : RESSTATE            
+66  :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+67  : N->i$N              i$iq}{litilii$liidxi$lii$     Niq}S!              
+67  : SAVESTATE:          9
+67  :                     i$iq}{litilii$liidxi$lii$     i$Niq}S!            
+68  :                     $iq}{litilii$liidxi$lii$z     $Niq}S!             
+69  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+70  : N->i                iq}{litilii$liidxi$lii$z(     Niq}S!              
+70  : SAVESTATE:          10
+70  :                     iq}{litilii$liidxi$lii$z(     iiq}S!              
+71  :                     q}{litilii$liidxi$lii$z(l     iq}S!               
+72  : 2                   
+72  : RESSTATE            
+72  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+73  : N->iN               iq}{litilii$liidxi$lii$z(     Niq}S!              
+73  : SAVESTATE:          10
+73  :                     iq}{litilii$liidxi$lii$z(     iNiq}S!             
+74  :                     q}{litilii$liidxi$lii$z(l     Niq}S!              
+75  : TNS_NORULECHAIN/NS_NORULE
+75  : RESSTATE            
+75  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+76  : N->i$               iq}{litilii$liidxi$lii$z(     Niq}S!              
+76  : SAVESTATE:          10
+76  :                     iq}{litilii$liidxi$lii$z(     i$iq}S!             
+77  :                     q}{litilii$liidxi$lii$z(l     $iq}S!              
+78  : 2                   
+78  : RESSTATE            
+78  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+79  : N->i$N              iq}{litilii$liidxi$lii$z(     Niq}S!              
+79  : SAVESTATE:          10
+79  :                     iq}{litilii$liidxi$lii$z(     i$Niq}S!            
+80  :                     q}{litilii$liidxi$lii$z(l     $Niq}S!             
+81  : 2                   
+81  : RESSTATE            
+81  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+82  : N->ii@$             iq}{litilii$liidxi$lii$z(     Niq}S!              
+82  : SAVESTATE:          10
+82  :                     iq}{litilii$liidxi$lii$z(     ii@$iq}S!           
+83  :                     q}{litilii$liidxi$lii$z(l     i@$iq}S!            
+84  : 2                   
+84  : RESSTATE            
+84  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+85  : N->ii@$N            iq}{litilii$liidxi$lii$z(     Niq}S!              
+85  : SAVESTATE:          10
+85  :                     iq}{litilii$liidxi$lii$z(     ii@$Niq}S!          
+86  :                     q}{litilii$liidxi$lii$z(l     i@$Niq}S!           
+87  : 2                   
+87  : RESSTATE            
+87  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+88  : N->il@$             iq}{litilii$liidxi$lii$z(     Niq}S!              
+88  : SAVESTATE:          10
+88  :                     iq}{litilii$liidxi$lii$z(     il@$iq}S!           
+89  :                     q}{litilii$liidxi$lii$z(l     l@$iq}S!            
+90  : 2                   
+90  : RESSTATE            
+90  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+91  : N->il@$N            iq}{litilii$liidxi$lii$z(     Niq}S!              
+91  : SAVESTATE:          10
+91  :                     iq}{litilii$liidxi$lii$z(     il@$Niq}S!          
+92  :                     q}{litilii$liidxi$lii$z(l     l@$Niq}S!           
+93  : 2                   
+93  : RESSTATE            
+93  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+94  : N->in               iq}{litilii$liidxi$lii$z(     Niq}S!              
+94  : SAVESTATE:          10
+94  :                     iq}{litilii$liidxi$lii$z(     iniq}S!             
+95  :                     q}{litilii$liidxi$lii$z(l     niq}S!              
+96  : 2                   
+96  : RESSTATE            
+96  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+97  : N->inN              iq}{litilii$liidxi$lii$z(     Niq}S!              
+97  : SAVESTATE:          10
+97  :                     iq}{litilii$liidxi$lii$z(     inNiq}S!            
+98  :                     q}{litilii$liidxi$lii$z(l     nNiq}S!             
+99  : 2                   
+99  : RESSTATE            
+99  :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+100 : N->ii@              iq}{litilii$liidxi$lii$z(     Niq}S!              
+100 : SAVESTATE:          10
+100 :                     iq}{litilii$liidxi$lii$z(     ii@iq}S!            
+101 :                     q}{litilii$liidxi$lii$z(l     i@iq}S!             
+102 : 2                   
+102 : RESSTATE            
+102 :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+103 : N->ii@N             iq}{litilii$liidxi$lii$z(     Niq}S!              
+103 : SAVESTATE:          10
+103 :                     iq}{litilii$liidxi$lii$z(     ii@Niq}S!           
+104 :                     q}{litilii$liidxi$lii$z(l     i@Niq}S!            
+105 : 2                   
+105 : RESSTATE            
+105 :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+106 : N->il@              iq}{litilii$liidxi$lii$z(     Niq}S!              
+106 : SAVESTATE:          10
+106 :                     iq}{litilii$liidxi$lii$z(     il@iq}S!            
+107 :                     q}{litilii$liidxi$lii$z(l     l@iq}S!             
+108 : 2                   
+108 : RESSTATE            
+108 :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+109 : N->il@N             iq}{litilii$liidxi$lii$z(     Niq}S!              
+109 : SAVESTATE:          10
+109 :                     iq}{litilii$liidxi$lii$z(     il@Niq}S!           
+110 :                     q}{litilii$liidxi$lii$z(l     l@Niq}S!            
+111 : 2                   
+111 : RESSTATE            
+111 :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+112 : N->iq               iq}{litilii$liidxi$lii$z(     Niq}S!              
+112 : SAVESTATE:          10
+112 :                     iq}{litilii$liidxi$lii$z(     iqiq}S!             
+113 :                     q}{litilii$liidxi$lii$z(l     qiq}S!              
+114 :                     }{litilii$liidxi$lii$z(li     iq}S!               
+115 : 2                   
+115 : RESSTATE            
+115 :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+116 : N->iqN              iq}{litilii$liidxi$lii$z(     Niq}S!              
+116 : SAVESTATE:          10
+116 :                     iq}{litilii$liidxi$lii$z(     iqNiq}S!            
+117 :                     q}{litilii$liidxi$lii$z(l     qNiq}S!             
+118 :                     }{litilii$liidxi$lii$z(li     Niq}S!              
+119 : TNS_NORULECHAIN/NS_NORULE
+119 : RESSTATE            
+119 :                     iq}{litilii$liidxi$lii$z(     Niq}S!              
+120 : TNS_NORULECHAIN/NS_NORULE
+120 : RESSTATE            
+120 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+121 : N->ii@$             i$iq}{litilii$liidxi$lii$     Niq}S!              
+121 : SAVESTATE:          9
+121 :                     i$iq}{litilii$liidxi$lii$     ii@$iq}S!           
+122 :                     $iq}{litilii$liidxi$lii$z     i@$iq}S!            
+123 : 2                   
+123 : RESSTATE            
+123 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+124 : N->ii@$N            i$iq}{litilii$liidxi$lii$     Niq}S!              
+124 : SAVESTATE:          9
+124 :                     i$iq}{litilii$liidxi$lii$     ii@$Niq}S!          
+125 :                     $iq}{litilii$liidxi$lii$z     i@$Niq}S!           
+126 : 2                   
+126 : RESSTATE            
+126 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+127 : N->il@$             i$iq}{litilii$liidxi$lii$     Niq}S!              
+127 : SAVESTATE:          9
+127 :                     i$iq}{litilii$liidxi$lii$     il@$iq}S!           
+128 :                     $iq}{litilii$liidxi$lii$z     l@$iq}S!            
+129 : 2                   
+129 : RESSTATE            
+129 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+130 : N->il@$N            i$iq}{litilii$liidxi$lii$     Niq}S!              
+130 : SAVESTATE:          9
+130 :                     i$iq}{litilii$liidxi$lii$     il@$Niq}S!          
+131 :                     $iq}{litilii$liidxi$lii$z     l@$Niq}S!           
+132 : 2                   
+132 : RESSTATE            
+132 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+133 : N->in               i$iq}{litilii$liidxi$lii$     Niq}S!              
+133 : SAVESTATE:          9
+133 :                     i$iq}{litilii$liidxi$lii$     iniq}S!             
+134 :                     $iq}{litilii$liidxi$lii$z     niq}S!              
+135 : 2                   
+135 : RESSTATE            
+135 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+136 : N->inN              i$iq}{litilii$liidxi$lii$     Niq}S!              
+136 : SAVESTATE:          9
+136 :                     i$iq}{litilii$liidxi$lii$     inNiq}S!            
+137 :                     $iq}{litilii$liidxi$lii$z     nNiq}S!             
+138 : 2                   
+138 : RESSTATE            
+138 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+139 : N->ii@              i$iq}{litilii$liidxi$lii$     Niq}S!              
+139 : SAVESTATE:          9
+139 :                     i$iq}{litilii$liidxi$lii$     ii@iq}S!            
+140 :                     $iq}{litilii$liidxi$lii$z     i@iq}S!             
+141 : 2                   
+141 : RESSTATE            
+141 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+142 : N->ii@N             i$iq}{litilii$liidxi$lii$     Niq}S!              
+142 : SAVESTATE:          9
+142 :                     i$iq}{litilii$liidxi$lii$     ii@Niq}S!           
+143 :                     $iq}{litilii$liidxi$lii$z     i@Niq}S!            
+144 : 2                   
+144 : RESSTATE            
+144 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+145 : N->il@              i$iq}{litilii$liidxi$lii$     Niq}S!              
+145 : SAVESTATE:          9
+145 :                     i$iq}{litilii$liidxi$lii$     il@iq}S!            
+146 :                     $iq}{litilii$liidxi$lii$z     l@iq}S!             
+147 : 2                   
+147 : RESSTATE            
+147 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+148 : N->il@N             i$iq}{litilii$liidxi$lii$     Niq}S!              
+148 : SAVESTATE:          9
+148 :                     i$iq}{litilii$liidxi$lii$     il@Niq}S!           
+149 :                     $iq}{litilii$liidxi$lii$z     l@Niq}S!            
+150 : 2                   
+150 : RESSTATE            
+150 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+151 : N->iq               i$iq}{litilii$liidxi$lii$     Niq}S!              
+151 : SAVESTATE:          9
+151 :                     i$iq}{litilii$liidxi$lii$     iqiq}S!             
+152 :                     $iq}{litilii$liidxi$lii$z     qiq}S!              
+153 : 2                   
+153 : RESSTATE            
+153 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+154 : N->iqN              i$iq}{litilii$liidxi$lii$     Niq}S!              
+154 : SAVESTATE:          9
+154 :                     i$iq}{litilii$liidxi$lii$     iqNiq}S!            
+155 :                     $iq}{litilii$liidxi$lii$z     qNiq}S!             
+156 : 2                   
+156 : RESSTATE            
+156 :                     i$iq}{litilii$liidxi$lii$     Niq}S!              
+157 : TNS_NORULECHAIN/NS_NORULE
+157 : RESSTATE            
+157 :                     +i$iq}{litilii$liidxi$lii     Niq}S!              
+158 : TNS_NORULECHAIN/NS_NORULE
+158 : RESSTATE            
+158 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+159 : N->i$               i+i$iq}{litilii$liidxi$li     Niq}S!              
+159 : SAVESTATE:          7
+159 :                     i+i$iq}{litilii$liidxi$li     i$iq}S!             
+160 :                     +i$iq}{litilii$liidxi$lii     $iq}S!              
+161 : 2                   
+161 : RESSTATE            
+161 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+162 : N->i$N              i+i$iq}{litilii$liidxi$li     Niq}S!              
+162 : SAVESTATE:          7
+162 :                     i+i$iq}{litilii$liidxi$li     i$Niq}S!            
+163 :                     +i$iq}{litilii$liidxi$lii     $Niq}S!             
+164 : 2                   
+164 : RESSTATE            
+164 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+165 : N->ii@$             i+i$iq}{litilii$liidxi$li     Niq}S!              
+165 : SAVESTATE:          7
+165 :                     i+i$iq}{litilii$liidxi$li     ii@$iq}S!           
+166 :                     +i$iq}{litilii$liidxi$lii     i@$iq}S!            
+167 : 2                   
+167 : RESSTATE            
+167 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+168 : N->ii@$N            i+i$iq}{litilii$liidxi$li     Niq}S!              
+168 : SAVESTATE:          7
+168 :                     i+i$iq}{litilii$liidxi$li     ii@$Niq}S!          
+169 :                     +i$iq}{litilii$liidxi$lii     i@$Niq}S!           
+170 : 2                   
+170 : RESSTATE            
+170 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+171 : N->il@$             i+i$iq}{litilii$liidxi$li     Niq}S!              
+171 : SAVESTATE:          7
+171 :                     i+i$iq}{litilii$liidxi$li     il@$iq}S!           
+172 :                     +i$iq}{litilii$liidxi$lii     l@$iq}S!            
+173 : 2                   
+173 : RESSTATE            
+173 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+174 : N->il@$N            i+i$iq}{litilii$liidxi$li     Niq}S!              
+174 : SAVESTATE:          7
+174 :                     i+i$iq}{litilii$liidxi$li     il@$Niq}S!          
+175 :                     +i$iq}{litilii$liidxi$lii     l@$Niq}S!           
+176 : 2                   
+176 : RESSTATE            
+176 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+177 : N->in               i+i$iq}{litilii$liidxi$li     Niq}S!              
+177 : SAVESTATE:          7
+177 :                     i+i$iq}{litilii$liidxi$li     iniq}S!             
+178 :                     +i$iq}{litilii$liidxi$lii     niq}S!              
+179 : 2                   
+179 : RESSTATE            
+179 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+180 : N->inN              i+i$iq}{litilii$liidxi$li     Niq}S!              
+180 : SAVESTATE:          7
+180 :                     i+i$iq}{litilii$liidxi$li     inNiq}S!            
+181 :                     +i$iq}{litilii$liidxi$lii     nNiq}S!             
+182 : 2                   
+182 : RESSTATE            
+182 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+183 : N->ii@              i+i$iq}{litilii$liidxi$li     Niq}S!              
+183 : SAVESTATE:          7
+183 :                     i+i$iq}{litilii$liidxi$li     ii@iq}S!            
+184 :                     +i$iq}{litilii$liidxi$lii     i@iq}S!             
+185 : 2                   
+185 : RESSTATE            
+185 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+186 : N->ii@N             i+i$iq}{litilii$liidxi$li     Niq}S!              
+186 : SAVESTATE:          7
+186 :                     i+i$iq}{litilii$liidxi$li     ii@Niq}S!           
+187 :                     +i$iq}{litilii$liidxi$lii     i@Niq}S!            
+188 : 2                   
+188 : RESSTATE            
+188 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+189 : N->il@              i+i$iq}{litilii$liidxi$li     Niq}S!              
+189 : SAVESTATE:          7
+189 :                     i+i$iq}{litilii$liidxi$li     il@iq}S!            
+190 :                     +i$iq}{litilii$liidxi$lii     l@iq}S!             
+191 : 2                   
+191 : RESSTATE            
+191 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+192 : N->il@N             i+i$iq}{litilii$liidxi$li     Niq}S!              
+192 : SAVESTATE:          7
+192 :                     i+i$iq}{litilii$liidxi$li     il@Niq}S!           
+193 :                     +i$iq}{litilii$liidxi$lii     l@Niq}S!            
+194 : 2                   
+194 : RESSTATE            
+194 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+195 : N->iq               i+i$iq}{litilii$liidxi$li     Niq}S!              
+195 : SAVESTATE:          7
+195 :                     i+i$iq}{litilii$liidxi$li     iqiq}S!             
+196 :                     +i$iq}{litilii$liidxi$lii     qiq}S!              
+197 : 2                   
+197 : RESSTATE            
+197 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+198 : N->iqN              i+i$iq}{litilii$liidxi$li     Niq}S!              
+198 : SAVESTATE:          7
+198 :                     i+i$iq}{litilii$liidxi$li     iqNiq}S!            
+199 :                     +i$iq}{litilii$liidxi$lii     qNiq}S!             
+200 : 2                   
+200 : RESSTATE            
+200 :                     i+i$iq}{litilii$liidxi$li     Niq}S!              
+201 : TNS_NORULECHAIN/NS_NORULE
+201 : RESSTATE            
+201 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+202 : N->i$               ii+i$iq}{litilii$liidxi$l     Niq}S!              
+202 : SAVESTATE:          6
+202 :                     ii+i$iq}{litilii$liidxi$l     i$iq}S!             
+203 :                     i+i$iq}{litilii$liidxi$li     $iq}S!              
+204 : 2                   
+204 : RESSTATE            
+204 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+205 : N->i$N              ii+i$iq}{litilii$liidxi$l     Niq}S!              
+205 : SAVESTATE:          6
+205 :                     ii+i$iq}{litilii$liidxi$l     i$Niq}S!            
+206 :                     i+i$iq}{litilii$liidxi$li     $Niq}S!             
+207 : 2                   
+207 : RESSTATE            
+207 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+208 : N->ii@$             ii+i$iq}{litilii$liidxi$l     Niq}S!              
+208 : SAVESTATE:          6
+208 :                     ii+i$iq}{litilii$liidxi$l     ii@$iq}S!           
+209 :                     i+i$iq}{litilii$liidxi$li     i@$iq}S!            
+210 :                     +i$iq}{litilii$liidxi$lii     @$iq}S!             
+211 : 2                   
+211 : RESSTATE            
+211 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+212 : N->ii@$N            ii+i$iq}{litilii$liidxi$l     Niq}S!              
+212 : SAVESTATE:          6
+212 :                     ii+i$iq}{litilii$liidxi$l     ii@$Niq}S!          
+213 :                     i+i$iq}{litilii$liidxi$li     i@$Niq}S!           
+214 :                     +i$iq}{litilii$liidxi$lii     @$Niq}S!            
+215 : 2                   
+215 : RESSTATE            
+215 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+216 : N->il@$             ii+i$iq}{litilii$liidxi$l     Niq}S!              
+216 : SAVESTATE:          6
+216 :                     ii+i$iq}{litilii$liidxi$l     il@$iq}S!           
+217 :                     i+i$iq}{litilii$liidxi$li     l@$iq}S!            
+218 : 2                   
+218 : RESSTATE            
+218 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+219 : N->il@$N            ii+i$iq}{litilii$liidxi$l     Niq}S!              
+219 : SAVESTATE:          6
+219 :                     ii+i$iq}{litilii$liidxi$l     il@$Niq}S!          
+220 :                     i+i$iq}{litilii$liidxi$li     l@$Niq}S!           
+221 : 2                   
+221 : RESSTATE            
+221 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+222 : N->in               ii+i$iq}{litilii$liidxi$l     Niq}S!              
+222 : SAVESTATE:          6
+222 :                     ii+i$iq}{litilii$liidxi$l     iniq}S!             
+223 :                     i+i$iq}{litilii$liidxi$li     niq}S!              
+224 : 2                   
+224 : RESSTATE            
+224 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+225 : N->inN              ii+i$iq}{litilii$liidxi$l     Niq}S!              
+225 : SAVESTATE:          6
+225 :                     ii+i$iq}{litilii$liidxi$l     inNiq}S!            
+226 :                     i+i$iq}{litilii$liidxi$li     nNiq}S!             
+227 : 2                   
+227 : RESSTATE            
+227 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+228 : N->ii@              ii+i$iq}{litilii$liidxi$l     Niq}S!              
+228 : SAVESTATE:          6
+228 :                     ii+i$iq}{litilii$liidxi$l     ii@iq}S!            
+229 :                     i+i$iq}{litilii$liidxi$li     i@iq}S!             
+230 :                     +i$iq}{litilii$liidxi$lii     @iq}S!              
+231 : 2                   
+231 : RESSTATE            
+231 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+232 : N->ii@N             ii+i$iq}{litilii$liidxi$l     Niq}S!              
+232 : SAVESTATE:          6
+232 :                     ii+i$iq}{litilii$liidxi$l     ii@Niq}S!           
+233 :                     i+i$iq}{litilii$liidxi$li     i@Niq}S!            
+234 :                     +i$iq}{litilii$liidxi$lii     @Niq}S!             
+235 : 2                   
+235 : RESSTATE            
+235 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+236 : N->il@              ii+i$iq}{litilii$liidxi$l     Niq}S!              
+236 : SAVESTATE:          6
+236 :                     ii+i$iq}{litilii$liidxi$l     il@iq}S!            
+237 :                     i+i$iq}{litilii$liidxi$li     l@iq}S!             
+238 : 2                   
+238 : RESSTATE            
+238 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+239 : N->il@N             ii+i$iq}{litilii$liidxi$l     Niq}S!              
+239 : SAVESTATE:          6
+239 :                     ii+i$iq}{litilii$liidxi$l     il@Niq}S!           
+240 :                     i+i$iq}{litilii$liidxi$li     l@Niq}S!            
+241 : 2                   
+241 : RESSTATE            
+241 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+242 : N->iq               ii+i$iq}{litilii$liidxi$l     Niq}S!              
+242 : SAVESTATE:          6
+242 :                     ii+i$iq}{litilii$liidxi$l     iqiq}S!             
+243 :                     i+i$iq}{litilii$liidxi$li     qiq}S!              
+244 : 2                   
+244 : RESSTATE            
+244 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+245 : N->iqN              ii+i$iq}{litilii$liidxi$l     Niq}S!              
+245 : SAVESTATE:          6
+245 :                     ii+i$iq}{litilii$liidxi$l     iqNiq}S!            
+246 :                     i+i$iq}{litilii$liidxi$li     qNiq}S!             
+247 : 2                   
+247 : RESSTATE            
+247 :                     ii+i$iq}{litilii$liidxi$l     Niq}S!              
+248 : TNS_NORULECHAIN/NS_NORULE
+248 : RESSTATE            
+248 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+249 : N->ii@$             i$ii+i$iq}{litilii$liidxi     Niq}S!              
+249 : SAVESTATE:          5
+249 :                     i$ii+i$iq}{litilii$liidxi     ii@$iq}S!           
+250 :                     $ii+i$iq}{litilii$liidxi$     i@$iq}S!            
+251 : 2                   
+251 : RESSTATE            
+251 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+252 : N->ii@$N            i$ii+i$iq}{litilii$liidxi     Niq}S!              
+252 : SAVESTATE:          5
+252 :                     i$ii+i$iq}{litilii$liidxi     ii@$Niq}S!          
+253 :                     $ii+i$iq}{litilii$liidxi$     i@$Niq}S!           
+254 : 2                   
+254 : RESSTATE            
+254 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+255 : N->il@$             i$ii+i$iq}{litilii$liidxi     Niq}S!              
+255 : SAVESTATE:          5
+255 :                     i$ii+i$iq}{litilii$liidxi     il@$iq}S!           
+256 :                     $ii+i$iq}{litilii$liidxi$     l@$iq}S!            
+257 : 2                   
+257 : RESSTATE            
+257 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+258 : N->il@$N            i$ii+i$iq}{litilii$liidxi     Niq}S!              
+258 : SAVESTATE:          5
+258 :                     i$ii+i$iq}{litilii$liidxi     il@$Niq}S!          
+259 :                     $ii+i$iq}{litilii$liidxi$     l@$Niq}S!           
+260 : 2                   
+260 : RESSTATE            
+260 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+261 : N->in               i$ii+i$iq}{litilii$liidxi     Niq}S!              
+261 : SAVESTATE:          5
+261 :                     i$ii+i$iq}{litilii$liidxi     iniq}S!             
+262 :                     $ii+i$iq}{litilii$liidxi$     niq}S!              
+263 : 2                   
+263 : RESSTATE            
+263 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+264 : N->inN              i$ii+i$iq}{litilii$liidxi     Niq}S!              
+264 : SAVESTATE:          5
+264 :                     i$ii+i$iq}{litilii$liidxi     inNiq}S!            
+265 :                     $ii+i$iq}{litilii$liidxi$     nNiq}S!             
+266 : 2                   
+266 : RESSTATE            
+266 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+267 : N->ii@              i$ii+i$iq}{litilii$liidxi     Niq}S!              
+267 : SAVESTATE:          5
+267 :                     i$ii+i$iq}{litilii$liidxi     ii@iq}S!            
+268 :                     $ii+i$iq}{litilii$liidxi$     i@iq}S!             
+269 : 2                   
+269 : RESSTATE            
+269 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+270 : N->ii@N             i$ii+i$iq}{litilii$liidxi     Niq}S!              
+270 : SAVESTATE:          5
+270 :                     i$ii+i$iq}{litilii$liidxi     ii@Niq}S!           
+271 :                     $ii+i$iq}{litilii$liidxi$     i@Niq}S!            
+272 : 2                   
+272 : RESSTATE            
+272 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+273 : N->il@              i$ii+i$iq}{litilii$liidxi     Niq}S!              
+273 : SAVESTATE:          5
+273 :                     i$ii+i$iq}{litilii$liidxi     il@iq}S!            
+274 :                     $ii+i$iq}{litilii$liidxi$     l@iq}S!             
+275 : 2                   
+275 : RESSTATE            
+275 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+276 : N->il@N             i$ii+i$iq}{litilii$liidxi     Niq}S!              
+276 : SAVESTATE:          5
+276 :                     i$ii+i$iq}{litilii$liidxi     il@Niq}S!           
+277 :                     $ii+i$iq}{litilii$liidxi$     l@Niq}S!            
+278 : 2                   
+278 : RESSTATE            
+278 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+279 : N->iq               i$ii+i$iq}{litilii$liidxi     Niq}S!              
+279 : SAVESTATE:          5
+279 :                     i$ii+i$iq}{litilii$liidxi     iqiq}S!             
+280 :                     $ii+i$iq}{litilii$liidxi$     qiq}S!              
+281 : 2                   
+281 : RESSTATE            
+281 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+282 : N->iqN              i$ii+i$iq}{litilii$liidxi     Niq}S!              
+282 : SAVESTATE:          5
+282 :                     i$ii+i$iq}{litilii$liidxi     iqNiq}S!            
+283 :                     $ii+i$iq}{litilii$liidxi$     qNiq}S!             
+284 : 2                   
+284 : RESSTATE            
+284 :                     i$ii+i$iq}{litilii$liidxi     Niq}S!              
+285 : TNS_NORULECHAIN/NS_NORULE
+285 : RESSTATE            
+285 :                     li$ii+i$iq}{litilii$liidx     Niq}S!              
+286 : N->lq               li$ii+i$iq}{litilii$liidx     Niq}S!              
+286 : SAVESTATE:          4
+286 :                     li$ii+i$iq}{litilii$liidx     lqiq}S!             
+287 :                     i$ii+i$iq}{litilii$liidxi     qiq}S!              
+288 : 2                   
+288 : RESSTATE            
+288 :                     li$ii+i$iq}{litilii$liidx     Niq}S!              
+289 : N->lq               li$ii+i$iq}{litilii$liidx     Niq}S!              
+289 : SAVESTATE:          4
+289 :                     li$ii+i$iq}{litilii$liidx     lqiq}S!             
+290 :                     i$ii+i$iq}{litilii$liidxi     qiq}S!              
+291 : 2                   
+291 : RESSTATE            
+291 :                     li$ii+i$iq}{litilii$liidx     Niq}S!              
+292 : TNS_NORULECHAIN/NS_NORULE
+292 : RESSTATE            
+292 :                     tili$ii+i$iq}{litilii$lii     Niq}S!              
+293 : N->til@             tili$ii+i$iq}{litilii$lii     Niq}S!              
+293 : SAVESTATE:          3
+293 :                     tili$ii+i$iq}{litilii$lii     til@iq}S!           
+294 :                     ili$ii+i$iq}{litilii$liid     il@iq}S!            
+295 :                     li$ii+i$iq}{litilii$liidx     l@iq}S!             
+296 :                     i$ii+i$iq}{litilii$liidxi     @iq}S!              
+297 : 2                   
+297 : RESSTATE            
+297 :                     tili$ii+i$iq}{litilii$lii     Niq}S!              
+298 : N->til@N            tili$ii+i$iq}{litilii$lii     Niq}S!              
+298 : SAVESTATE:          3
+298 :                     tili$ii+i$iq}{litilii$lii     til@Niq}S!          
+299 :                     ili$ii+i$iq}{litilii$liid     il@Niq}S!           
+300 :                     li$ii+i$iq}{litilii$liidx     l@Niq}S!            
+301 :                     i$ii+i$iq}{litilii$liidxi     @Niq}S!             
+302 : 2                   
+302 : RESSTATE            
+302 :                     tili$ii+i$iq}{litilii$lii     Niq}S!              
+303 : TNS_NORULECHAIN/NS_NORULE
+303 : RESSTATE            
+303 :                     ti){tili$ii+i$iq}{litilii     W){Niq}S!           
+304 : W->ti,W             ti){tili$ii+i$iq}{litilii     W){Niq}S!           
+304 : SAVESTATE:          2
+304 :                     ti){tili$ii+i$iq}{litilii     ti,W){Niq}S!        
+305 :                     i){tili$ii+i$iq}{litilii$     i,W){Niq}S!         
+306 :                     ){tili$ii+i$iq}{litilii$l     ,W){Niq}S!          
+307 : 2                   
+307 : RESSTATE            
+307 :                     ti){tili$ii+i$iq}{litilii     W){Niq}S!           
+308 : TNS_NORULECHAIN/NS_NORULE
+308 : RESSTATE            
+308 :                     fti(ti){tili$ii+i$iq}{lit     S!                  
+309 : S->fti(W){iq}S      fti(ti){tili$ii+i$iq}{lit     S!                  
+309 : SAVESTATE:          1
+309 :                     fti(ti){tili$ii+i$iq}{lit     fti(W){iq}S!        
+310 :                     ti(ti){tili$ii+i$iq}{liti     ti(W){iq}S!         
+311 :                     i(ti){tili$ii+i$iq}{litil     i(W){iq}S!          
+312 :                     (ti){tili$ii+i$iq}{litili     (W){iq}S!           
+313 :                     ti){tili$ii+i$iq}{litilii     W){iq}S!            
+314 : W->ti               ti){tili$ii+i$iq}{litilii     W){iq}S!            
+314 : SAVESTATE:          2
+314 :                     ti){tili$ii+i$iq}{litilii     ti){iq}S!           
+315 :                     i){tili$ii+i$iq}{litilii$     i){iq}S!            
+316 :                     ){tili$ii+i$iq}{litilii$l     ){iq}S!             
+317 :                     {tili$ii+i$iq}{litilii$li     {iq}S!              
+318 :                     tili$ii+i$iq}{litilii$lii     iq}S!               
+319 : 2                   
+319 : RESSTATE            
+319 :                     ti){tili$ii+i$iq}{litilii     W){iq}S!            
+320 : W->ti,W             ti){tili$ii+i$iq}{litilii     W){iq}S!            
+320 : SAVESTATE:          2
+320 :                     ti){tili$ii+i$iq}{litilii     ti,W){iq}S!         
+321 :                     i){tili$ii+i$iq}{litilii$     i,W){iq}S!          
+322 :                     ){tili$ii+i$iq}{litilii$l     ,W){iq}S!           
+323 : 2                   
+323 : RESSTATE            
+323 :                     ti){tili$ii+i$iq}{litilii     W){iq}S!            
+324 : TNS_NORULECHAIN/NS_NORULE
+324 : RESSTATE            
+324 :                     fti(ti){tili$ii+i$iq}{lit     S!                  
+325 : S->fti(W){Nlq}S     fti(ti){tili$ii+i$iq}{lit     S!                  
+325 : SAVESTATE:          1
+325 :                     fti(ti){tili$ii+i$iq}{lit     fti(W){Nlq}S!       
+326 :                     ti(ti){tili$ii+i$iq}{liti     ti(W){Nlq}S!        
+327 :                     i(ti){tili$ii+i$iq}{litil     i(W){Nlq}S!         
+328 :                     (ti){tili$ii+i$iq}{litili     (W){Nlq}S!          
+329 :                     ti){tili$ii+i$iq}{litilii     W){Nlq}S!           
+330 : W->ti               ti){tili$ii+i$iq}{litilii     W){Nlq}S!           
+330 : SAVESTATE:          2
+330 :                     ti){tili$ii+i$iq}{litilii     ti){Nlq}S!          
+331 :                     i){tili$ii+i$iq}{litilii$     i){Nlq}S!           
+332 :                     ){tili$ii+i$iq}{litilii$l     ){Nlq}S!            
+333 :                     {tili$ii+i$iq}{litilii$li     {Nlq}S!             
+334 :                     tili$ii+i$iq}{litilii$lii     Nlq}S!              
+335 : N->ti               tili$ii+i$iq}{litilii$lii     Nlq}S!              
+335 : SAVESTATE:          3
+335 :                     tili$ii+i$iq}{litilii$lii     tilq}S!             
+336 :                     ili$ii+i$iq}{litilii$liid     ilq}S!              
+337 :                     li$ii+i$iq}{litilii$liidx     lq}S!               
+338 :                     i$ii+i$iq}{litilii$liidxi     q}S!                
+339 : 2                   
+339 : RESSTATE            
+339 :                     tili$ii+i$iq}{litilii$lii     Nlq}S!              
+340 : N->tiN              tili$ii+i$iq}{litilii$lii     Nlq}S!              
+340 : SAVESTATE:          3
+340 :                     tili$ii+i$iq}{litilii$lii     tiNlq}S!            
+341 :                     ili$ii+i$iq}{litilii$liid     iNlq}S!             
+342 :                     li$ii+i$iq}{litilii$liidx     Nlq}S!              
+343 : N->l                li$ii+i$iq}{litilii$liidx     Nlq}S!              
+343 : SAVESTATE:          4
+343 :                     li$ii+i$iq}{litilii$liidx     llq}S!              
+344 :                     i$ii+i$iq}{litilii$liidxi     lq}S!               
+345 : 2                   
+345 : RESSTATE            
+345 :                     li$ii+i$iq}{litilii$liidx     Nlq}S!              
+346 : N->lN               li$ii+i$iq}{litilii$liidx     Nlq}S!              
+346 : SAVESTATE:          4
+346 :                     li$ii+i$iq}{litilii$liidx     lNlq}S!             
+347 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+348 : N->i                i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+348 : SAVESTATE:          5
+348 :                     i$ii+i$iq}{litilii$liidxi     ilq}S!              
+349 :                     $ii+i$iq}{litilii$liidxi$     lq}S!               
+350 : 2                   
+350 : RESSTATE            
+350 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+351 : N->iN               i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+351 : SAVESTATE:          5
+351 :                     i$ii+i$iq}{litilii$liidxi     iNlq}S!             
+352 :                     $ii+i$iq}{litilii$liidxi$     Nlq}S!              
+353 : TNS_NORULECHAIN/NS_NORULE
+353 : RESSTATE            
+353 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+354 : N->i$               i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+354 : SAVESTATE:          5
+354 :                     i$ii+i$iq}{litilii$liidxi     i$lq}S!             
+355 :                     $ii+i$iq}{litilii$liidxi$     $lq}S!              
+356 :                     ii+i$iq}{litilii$liidxi$l     lq}S!               
+357 : 2                   
+357 : RESSTATE            
+357 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+358 : N->i$N              i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+358 : SAVESTATE:          5
+358 :                     i$ii+i$iq}{litilii$liidxi     i$Nlq}S!            
+359 :                     $ii+i$iq}{litilii$liidxi$     $Nlq}S!             
+360 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+361 : N->i                ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+361 : SAVESTATE:          6
+361 :                     ii+i$iq}{litilii$liidxi$l     ilq}S!              
+362 :                     i+i$iq}{litilii$liidxi$li     lq}S!               
+363 : 2                   
+363 : RESSTATE            
+363 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+364 : N->iN               ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+364 : SAVESTATE:          6
+364 :                     ii+i$iq}{litilii$liidxi$l     iNlq}S!             
+365 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+366 : N->i                i+i$iq}{litilii$liidxi$li     Nlq}S!              
+366 : SAVESTATE:          7
+366 :                     i+i$iq}{litilii$liidxi$li     ilq}S!              
+367 :                     +i$iq}{litilii$liidxi$lii     lq}S!               
+368 : 2                   
+368 : RESSTATE            
+368 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+369 : N->iN               i+i$iq}{litilii$liidxi$li     Nlq}S!              
+369 : SAVESTATE:          7
+369 :                     i+i$iq}{litilii$liidxi$li     iNlq}S!             
+370 :                     +i$iq}{litilii$liidxi$lii     Nlq}S!              
+371 : N->+                +i$iq}{litilii$liidxi$lii     Nlq}S!              
+371 : SAVESTATE:          8
+371 :                     +i$iq}{litilii$liidxi$lii     +lq}S!              
+372 :                     i$iq}{litilii$liidxi$lii$     lq}S!               
+373 : 2                   
+373 : RESSTATE            
+373 :                     +i$iq}{litilii$liidxi$lii     Nlq}S!              
+374 : N->+N               +i$iq}{litilii$liidxi$lii     Nlq}S!              
+374 : SAVESTATE:          8
+374 :                     +i$iq}{litilii$liidxi$lii     +Nlq}S!             
+375 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+376 : N->i                i$iq}{litilii$liidxi$lii$     Nlq}S!              
+376 : SAVESTATE:          9
+376 :                     i$iq}{litilii$liidxi$lii$     ilq}S!              
+377 :                     $iq}{litilii$liidxi$lii$z     lq}S!               
+378 : 2                   
+378 : RESSTATE            
+378 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+379 : N->iN               i$iq}{litilii$liidxi$lii$     Nlq}S!              
+379 : SAVESTATE:          9
+379 :                     i$iq}{litilii$liidxi$lii$     iNlq}S!             
+380 :                     $iq}{litilii$liidxi$lii$z     Nlq}S!              
+381 : TNS_NORULECHAIN/NS_NORULE
+381 : RESSTATE            
+381 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+382 : N->i$               i$iq}{litilii$liidxi$lii$     Nlq}S!              
+382 : SAVESTATE:          9
+382 :                     i$iq}{litilii$liidxi$lii$     i$lq}S!             
+383 :                     $iq}{litilii$liidxi$lii$z     $lq}S!              
+384 :                     iq}{litilii$liidxi$lii$z(     lq}S!               
+385 : 2                   
+385 : RESSTATE            
+385 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+386 : N->i$N              i$iq}{litilii$liidxi$lii$     Nlq}S!              
+386 : SAVESTATE:          9
+386 :                     i$iq}{litilii$liidxi$lii$     i$Nlq}S!            
+387 :                     $iq}{litilii$liidxi$lii$z     $Nlq}S!             
+388 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+389 : N->i                iq}{litilii$liidxi$lii$z(     Nlq}S!              
+389 : SAVESTATE:          10
+389 :                     iq}{litilii$liidxi$lii$z(     ilq}S!              
+390 :                     q}{litilii$liidxi$lii$z(l     lq}S!               
+391 : 2                   
+391 : RESSTATE            
+391 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+392 : N->iN               iq}{litilii$liidxi$lii$z(     Nlq}S!              
+392 : SAVESTATE:          10
+392 :                     iq}{litilii$liidxi$lii$z(     iNlq}S!             
+393 :                     q}{litilii$liidxi$lii$z(l     Nlq}S!              
+394 : TNS_NORULECHAIN/NS_NORULE
+394 : RESSTATE            
+394 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+395 : N->i$               iq}{litilii$liidxi$lii$z(     Nlq}S!              
+395 : SAVESTATE:          10
+395 :                     iq}{litilii$liidxi$lii$z(     i$lq}S!             
+396 :                     q}{litilii$liidxi$lii$z(l     $lq}S!              
+397 : 2                   
+397 : RESSTATE            
+397 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+398 : N->i$N              iq}{litilii$liidxi$lii$z(     Nlq}S!              
+398 : SAVESTATE:          10
+398 :                     iq}{litilii$liidxi$lii$z(     i$Nlq}S!            
+399 :                     q}{litilii$liidxi$lii$z(l     $Nlq}S!             
+400 : 2                   
+400 : RESSTATE            
+400 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+401 : N->ii@$             iq}{litilii$liidxi$lii$z(     Nlq}S!              
+401 : SAVESTATE:          10
+401 :                     iq}{litilii$liidxi$lii$z(     ii@$lq}S!           
+402 :                     q}{litilii$liidxi$lii$z(l     i@$lq}S!            
+403 : 2                   
+403 : RESSTATE            
+403 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+404 : N->ii@$N            iq}{litilii$liidxi$lii$z(     Nlq}S!              
+404 : SAVESTATE:          10
+404 :                     iq}{litilii$liidxi$lii$z(     ii@$Nlq}S!          
+405 :                     q}{litilii$liidxi$lii$z(l     i@$Nlq}S!           
+406 : 2                   
+406 : RESSTATE            
+406 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+407 : N->il@$             iq}{litilii$liidxi$lii$z(     Nlq}S!              
+407 : SAVESTATE:          10
+407 :                     iq}{litilii$liidxi$lii$z(     il@$lq}S!           
+408 :                     q}{litilii$liidxi$lii$z(l     l@$lq}S!            
+409 : 2                   
+409 : RESSTATE            
+409 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+410 : N->il@$N            iq}{litilii$liidxi$lii$z(     Nlq}S!              
+410 : SAVESTATE:          10
+410 :                     iq}{litilii$liidxi$lii$z(     il@$Nlq}S!          
+411 :                     q}{litilii$liidxi$lii$z(l     l@$Nlq}S!           
+412 : 2                   
+412 : RESSTATE            
+412 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+413 : N->in               iq}{litilii$liidxi$lii$z(     Nlq}S!              
+413 : SAVESTATE:          10
+413 :                     iq}{litilii$liidxi$lii$z(     inlq}S!             
+414 :                     q}{litilii$liidxi$lii$z(l     nlq}S!              
+415 : 2                   
+415 : RESSTATE            
+415 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+416 : N->inN              iq}{litilii$liidxi$lii$z(     Nlq}S!              
+416 : SAVESTATE:          10
+416 :                     iq}{litilii$liidxi$lii$z(     inNlq}S!            
+417 :                     q}{litilii$liidxi$lii$z(l     nNlq}S!             
+418 : 2                   
+418 : RESSTATE            
+418 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+419 : N->ii@              iq}{litilii$liidxi$lii$z(     Nlq}S!              
+419 : SAVESTATE:          10
+419 :                     iq}{litilii$liidxi$lii$z(     ii@lq}S!            
+420 :                     q}{litilii$liidxi$lii$z(l     i@lq}S!             
+421 : 2                   
+421 : RESSTATE            
+421 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+422 : N->ii@N             iq}{litilii$liidxi$lii$z(     Nlq}S!              
+422 : SAVESTATE:          10
+422 :                     iq}{litilii$liidxi$lii$z(     ii@Nlq}S!           
+423 :                     q}{litilii$liidxi$lii$z(l     i@Nlq}S!            
+424 : 2                   
+424 : RESSTATE            
+424 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+425 : N->il@              iq}{litilii$liidxi$lii$z(     Nlq}S!              
+425 : SAVESTATE:          10
+425 :                     iq}{litilii$liidxi$lii$z(     il@lq}S!            
+426 :                     q}{litilii$liidxi$lii$z(l     l@lq}S!             
+427 : 2                   
+427 : RESSTATE            
+427 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+428 : N->il@N             iq}{litilii$liidxi$lii$z(     Nlq}S!              
+428 : SAVESTATE:          10
+428 :                     iq}{litilii$liidxi$lii$z(     il@Nlq}S!           
+429 :                     q}{litilii$liidxi$lii$z(l     l@Nlq}S!            
+430 : 2                   
+430 : RESSTATE            
+430 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+431 : N->iq               iq}{litilii$liidxi$lii$z(     Nlq}S!              
+431 : SAVESTATE:          10
+431 :                     iq}{litilii$liidxi$lii$z(     iqlq}S!             
+432 :                     q}{litilii$liidxi$lii$z(l     qlq}S!              
+433 :                     }{litilii$liidxi$lii$z(li     lq}S!               
+434 : 2                   
+434 : RESSTATE            
+434 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+435 : N->iqN              iq}{litilii$liidxi$lii$z(     Nlq}S!              
+435 : SAVESTATE:          10
+435 :                     iq}{litilii$liidxi$lii$z(     iqNlq}S!            
+436 :                     q}{litilii$liidxi$lii$z(l     qNlq}S!             
+437 :                     }{litilii$liidxi$lii$z(li     Nlq}S!              
+438 : TNS_NORULECHAIN/NS_NORULE
+438 : RESSTATE            
+438 :                     iq}{litilii$liidxi$lii$z(     Nlq}S!              
+439 : TNS_NORULECHAIN/NS_NORULE
+439 : RESSTATE            
+439 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+440 : N->ii@$             i$iq}{litilii$liidxi$lii$     Nlq}S!              
+440 : SAVESTATE:          9
+440 :                     i$iq}{litilii$liidxi$lii$     ii@$lq}S!           
+441 :                     $iq}{litilii$liidxi$lii$z     i@$lq}S!            
+442 : 2                   
+442 : RESSTATE            
+442 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+443 : N->ii@$N            i$iq}{litilii$liidxi$lii$     Nlq}S!              
+443 : SAVESTATE:          9
+443 :                     i$iq}{litilii$liidxi$lii$     ii@$Nlq}S!          
+444 :                     $iq}{litilii$liidxi$lii$z     i@$Nlq}S!           
+445 : 2                   
+445 : RESSTATE            
+445 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+446 : N->il@$             i$iq}{litilii$liidxi$lii$     Nlq}S!              
+446 : SAVESTATE:          9
+446 :                     i$iq}{litilii$liidxi$lii$     il@$lq}S!           
+447 :                     $iq}{litilii$liidxi$lii$z     l@$lq}S!            
+448 : 2                   
+448 : RESSTATE            
+448 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+449 : N->il@$N            i$iq}{litilii$liidxi$lii$     Nlq}S!              
+449 : SAVESTATE:          9
+449 :                     i$iq}{litilii$liidxi$lii$     il@$Nlq}S!          
+450 :                     $iq}{litilii$liidxi$lii$z     l@$Nlq}S!           
+451 : 2                   
+451 : RESSTATE            
+451 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+452 : N->in               i$iq}{litilii$liidxi$lii$     Nlq}S!              
+452 : SAVESTATE:          9
+452 :                     i$iq}{litilii$liidxi$lii$     inlq}S!             
+453 :                     $iq}{litilii$liidxi$lii$z     nlq}S!              
+454 : 2                   
+454 : RESSTATE            
+454 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+455 : N->inN              i$iq}{litilii$liidxi$lii$     Nlq}S!              
+455 : SAVESTATE:          9
+455 :                     i$iq}{litilii$liidxi$lii$     inNlq}S!            
+456 :                     $iq}{litilii$liidxi$lii$z     nNlq}S!             
+457 : 2                   
+457 : RESSTATE            
+457 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+458 : N->ii@              i$iq}{litilii$liidxi$lii$     Nlq}S!              
+458 : SAVESTATE:          9
+458 :                     i$iq}{litilii$liidxi$lii$     ii@lq}S!            
+459 :                     $iq}{litilii$liidxi$lii$z     i@lq}S!             
+460 : 2                   
+460 : RESSTATE            
+460 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+461 : N->ii@N             i$iq}{litilii$liidxi$lii$     Nlq}S!              
+461 : SAVESTATE:          9
+461 :                     i$iq}{litilii$liidxi$lii$     ii@Nlq}S!           
+462 :                     $iq}{litilii$liidxi$lii$z     i@Nlq}S!            
+463 : 2                   
+463 : RESSTATE            
+463 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+464 : N->il@              i$iq}{litilii$liidxi$lii$     Nlq}S!              
+464 : SAVESTATE:          9
+464 :                     i$iq}{litilii$liidxi$lii$     il@lq}S!            
+465 :                     $iq}{litilii$liidxi$lii$z     l@lq}S!             
+466 : 2                   
+466 : RESSTATE            
+466 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+467 : N->il@N             i$iq}{litilii$liidxi$lii$     Nlq}S!              
+467 : SAVESTATE:          9
+467 :                     i$iq}{litilii$liidxi$lii$     il@Nlq}S!           
+468 :                     $iq}{litilii$liidxi$lii$z     l@Nlq}S!            
+469 : 2                   
+469 : RESSTATE            
+469 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+470 : N->iq               i$iq}{litilii$liidxi$lii$     Nlq}S!              
+470 : SAVESTATE:          9
+470 :                     i$iq}{litilii$liidxi$lii$     iqlq}S!             
+471 :                     $iq}{litilii$liidxi$lii$z     qlq}S!              
+472 : 2                   
+472 : RESSTATE            
+472 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+473 : N->iqN              i$iq}{litilii$liidxi$lii$     Nlq}S!              
+473 : SAVESTATE:          9
+473 :                     i$iq}{litilii$liidxi$lii$     iqNlq}S!            
+474 :                     $iq}{litilii$liidxi$lii$z     qNlq}S!             
+475 : 2                   
+475 : RESSTATE            
+475 :                     i$iq}{litilii$liidxi$lii$     Nlq}S!              
+476 : TNS_NORULECHAIN/NS_NORULE
+476 : RESSTATE            
+476 :                     +i$iq}{litilii$liidxi$lii     Nlq}S!              
+477 : TNS_NORULECHAIN/NS_NORULE
+477 : RESSTATE            
+477 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+478 : N->i$               i+i$iq}{litilii$liidxi$li     Nlq}S!              
+478 : SAVESTATE:          7
+478 :                     i+i$iq}{litilii$liidxi$li     i$lq}S!             
+479 :                     +i$iq}{litilii$liidxi$lii     $lq}S!              
+480 : 2                   
+480 : RESSTATE            
+480 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+481 : N->i$N              i+i$iq}{litilii$liidxi$li     Nlq}S!              
+481 : SAVESTATE:          7
+481 :                     i+i$iq}{litilii$liidxi$li     i$Nlq}S!            
+482 :                     +i$iq}{litilii$liidxi$lii     $Nlq}S!             
+483 : 2                   
+483 : RESSTATE            
+483 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+484 : N->ii@$             i+i$iq}{litilii$liidxi$li     Nlq}S!              
+484 : SAVESTATE:          7
+484 :                     i+i$iq}{litilii$liidxi$li     ii@$lq}S!           
+485 :                     +i$iq}{litilii$liidxi$lii     i@$lq}S!            
+486 : 2                   
+486 : RESSTATE            
+486 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+487 : N->ii@$N            i+i$iq}{litilii$liidxi$li     Nlq}S!              
+487 : SAVESTATE:          7
+487 :                     i+i$iq}{litilii$liidxi$li     ii@$Nlq}S!          
+488 :                     +i$iq}{litilii$liidxi$lii     i@$Nlq}S!           
+489 : 2                   
+489 : RESSTATE            
+489 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+490 : N->il@$             i+i$iq}{litilii$liidxi$li     Nlq}S!              
+490 : SAVESTATE:          7
+490 :                     i+i$iq}{litilii$liidxi$li     il@$lq}S!           
+491 :                     +i$iq}{litilii$liidxi$lii     l@$lq}S!            
+492 : 2                   
+492 : RESSTATE            
+492 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+493 : N->il@$N            i+i$iq}{litilii$liidxi$li     Nlq}S!              
+493 : SAVESTATE:          7
+493 :                     i+i$iq}{litilii$liidxi$li     il@$Nlq}S!          
+494 :                     +i$iq}{litilii$liidxi$lii     l@$Nlq}S!           
+495 : 2                   
+495 : RESSTATE            
+495 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+496 : N->in               i+i$iq}{litilii$liidxi$li     Nlq}S!              
+496 : SAVESTATE:          7
+496 :                     i+i$iq}{litilii$liidxi$li     inlq}S!             
+497 :                     +i$iq}{litilii$liidxi$lii     nlq}S!              
+498 : 2                   
+498 : RESSTATE            
+498 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+499 : N->inN              i+i$iq}{litilii$liidxi$li     Nlq}S!              
+499 : SAVESTATE:          7
+499 :                     i+i$iq}{litilii$liidxi$li     inNlq}S!            
+500 :                     +i$iq}{litilii$liidxi$lii     nNlq}S!             
+501 : 2                   
+501 : RESSTATE            
+501 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+502 : N->ii@              i+i$iq}{litilii$liidxi$li     Nlq}S!              
+502 : SAVESTATE:          7
+502 :                     i+i$iq}{litilii$liidxi$li     ii@lq}S!            
+503 :                     +i$iq}{litilii$liidxi$lii     i@lq}S!             
+504 : 2                   
+504 : RESSTATE            
+504 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+505 : N->ii@N             i+i$iq}{litilii$liidxi$li     Nlq}S!              
+505 : SAVESTATE:          7
+505 :                     i+i$iq}{litilii$liidxi$li     ii@Nlq}S!           
+506 :                     +i$iq}{litilii$liidxi$lii     i@Nlq}S!            
+507 : 2                   
+507 : RESSTATE            
+507 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+508 : N->il@              i+i$iq}{litilii$liidxi$li     Nlq}S!              
+508 : SAVESTATE:          7
+508 :                     i+i$iq}{litilii$liidxi$li     il@lq}S!            
+509 :                     +i$iq}{litilii$liidxi$lii     l@lq}S!             
+510 : 2                   
+510 : RESSTATE            
+510 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+511 : N->il@N             i+i$iq}{litilii$liidxi$li     Nlq}S!              
+511 : SAVESTATE:          7
+511 :                     i+i$iq}{litilii$liidxi$li     il@Nlq}S!           
+512 :                     +i$iq}{litilii$liidxi$lii     l@Nlq}S!            
+513 : 2                   
+513 : RESSTATE            
+513 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+514 : N->iq               i+i$iq}{litilii$liidxi$li     Nlq}S!              
+514 : SAVESTATE:          7
+514 :                     i+i$iq}{litilii$liidxi$li     iqlq}S!             
+515 :                     +i$iq}{litilii$liidxi$lii     qlq}S!              
+516 : 2                   
+516 : RESSTATE            
+516 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+517 : N->iqN              i+i$iq}{litilii$liidxi$li     Nlq}S!              
+517 : SAVESTATE:          7
+517 :                     i+i$iq}{litilii$liidxi$li     iqNlq}S!            
+518 :                     +i$iq}{litilii$liidxi$lii     qNlq}S!             
+519 : 2                   
+519 : RESSTATE            
+519 :                     i+i$iq}{litilii$liidxi$li     Nlq}S!              
+520 : TNS_NORULECHAIN/NS_NORULE
+520 : RESSTATE            
+520 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+521 : N->i$               ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+521 : SAVESTATE:          6
+521 :                     ii+i$iq}{litilii$liidxi$l     i$lq}S!             
+522 :                     i+i$iq}{litilii$liidxi$li     $lq}S!              
+523 : 2                   
+523 : RESSTATE            
+523 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+524 : N->i$N              ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+524 : SAVESTATE:          6
+524 :                     ii+i$iq}{litilii$liidxi$l     i$Nlq}S!            
+525 :                     i+i$iq}{litilii$liidxi$li     $Nlq}S!             
+526 : 2                   
+526 : RESSTATE            
+526 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+527 : N->ii@$             ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+527 : SAVESTATE:          6
+527 :                     ii+i$iq}{litilii$liidxi$l     ii@$lq}S!           
+528 :                     i+i$iq}{litilii$liidxi$li     i@$lq}S!            
+529 :                     +i$iq}{litilii$liidxi$lii     @$lq}S!             
+530 : 2                   
+530 : RESSTATE            
+530 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+531 : N->ii@$N            ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+531 : SAVESTATE:          6
+531 :                     ii+i$iq}{litilii$liidxi$l     ii@$Nlq}S!          
+532 :                     i+i$iq}{litilii$liidxi$li     i@$Nlq}S!           
+533 :                     +i$iq}{litilii$liidxi$lii     @$Nlq}S!            
+534 : 2                   
+534 : RESSTATE            
+534 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+535 : N->il@$             ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+535 : SAVESTATE:          6
+535 :                     ii+i$iq}{litilii$liidxi$l     il@$lq}S!           
+536 :                     i+i$iq}{litilii$liidxi$li     l@$lq}S!            
+537 : 2                   
+537 : RESSTATE            
+537 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+538 : N->il@$N            ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+538 : SAVESTATE:          6
+538 :                     ii+i$iq}{litilii$liidxi$l     il@$Nlq}S!          
+539 :                     i+i$iq}{litilii$liidxi$li     l@$Nlq}S!           
+540 : 2                   
+540 : RESSTATE            
+540 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+541 : N->in               ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+541 : SAVESTATE:          6
+541 :                     ii+i$iq}{litilii$liidxi$l     inlq}S!             
+542 :                     i+i$iq}{litilii$liidxi$li     nlq}S!              
+543 : 2                   
+543 : RESSTATE            
+543 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+544 : N->inN              ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+544 : SAVESTATE:          6
+544 :                     ii+i$iq}{litilii$liidxi$l     inNlq}S!            
+545 :                     i+i$iq}{litilii$liidxi$li     nNlq}S!             
+546 : 2                   
+546 : RESSTATE            
+546 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+547 : N->ii@              ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+547 : SAVESTATE:          6
+547 :                     ii+i$iq}{litilii$liidxi$l     ii@lq}S!            
+548 :                     i+i$iq}{litilii$liidxi$li     i@lq}S!             
+549 :                     +i$iq}{litilii$liidxi$lii     @lq}S!              
+550 : 2                   
+550 : RESSTATE            
+550 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+551 : N->ii@N             ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+551 : SAVESTATE:          6
+551 :                     ii+i$iq}{litilii$liidxi$l     ii@Nlq}S!           
+552 :                     i+i$iq}{litilii$liidxi$li     i@Nlq}S!            
+553 :                     +i$iq}{litilii$liidxi$lii     @Nlq}S!             
+554 : 2                   
+554 : RESSTATE            
+554 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+555 : N->il@              ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+555 : SAVESTATE:          6
+555 :                     ii+i$iq}{litilii$liidxi$l     il@lq}S!            
+556 :                     i+i$iq}{litilii$liidxi$li     l@lq}S!             
+557 : 2                   
+557 : RESSTATE            
+557 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+558 : N->il@N             ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+558 : SAVESTATE:          6
+558 :                     ii+i$iq}{litilii$liidxi$l     il@Nlq}S!           
+559 :                     i+i$iq}{litilii$liidxi$li     l@Nlq}S!            
+560 : 2                   
+560 : RESSTATE            
+560 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+561 : N->iq               ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+561 : SAVESTATE:          6
+561 :                     ii+i$iq}{litilii$liidxi$l     iqlq}S!             
+562 :                     i+i$iq}{litilii$liidxi$li     qlq}S!              
+563 : 2                   
+563 : RESSTATE            
+563 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+564 : N->iqN              ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+564 : SAVESTATE:          6
+564 :                     ii+i$iq}{litilii$liidxi$l     iqNlq}S!            
+565 :                     i+i$iq}{litilii$liidxi$li     qNlq}S!             
+566 : 2                   
+566 : RESSTATE            
+566 :                     ii+i$iq}{litilii$liidxi$l     Nlq}S!              
+567 : TNS_NORULECHAIN/NS_NORULE
+567 : RESSTATE            
+567 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+568 : N->ii@$             i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+568 : SAVESTATE:          5
+568 :                     i$ii+i$iq}{litilii$liidxi     ii@$lq}S!           
+569 :                     $ii+i$iq}{litilii$liidxi$     i@$lq}S!            
+570 : 2                   
+570 : RESSTATE            
+570 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+571 : N->ii@$N            i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+571 : SAVESTATE:          5
+571 :                     i$ii+i$iq}{litilii$liidxi     ii@$Nlq}S!          
+572 :                     $ii+i$iq}{litilii$liidxi$     i@$Nlq}S!           
+573 : 2                   
+573 : RESSTATE            
+573 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+574 : N->il@$             i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+574 : SAVESTATE:          5
+574 :                     i$ii+i$iq}{litilii$liidxi     il@$lq}S!           
+575 :                     $ii+i$iq}{litilii$liidxi$     l@$lq}S!            
+576 : 2                   
+576 : RESSTATE            
+576 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+577 : N->il@$N            i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+577 : SAVESTATE:          5
+577 :                     i$ii+i$iq}{litilii$liidxi     il@$Nlq}S!          
+578 :                     $ii+i$iq}{litilii$liidxi$     l@$Nlq}S!           
+579 : 2                   
+579 : RESSTATE            
+579 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+580 : N->in               i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+580 : SAVESTATE:          5
+580 :                     i$ii+i$iq}{litilii$liidxi     inlq}S!             
+581 :                     $ii+i$iq}{litilii$liidxi$     nlq}S!              
+582 : 2                   
+582 : RESSTATE            
+582 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+583 : N->inN              i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+583 : SAVESTATE:          5
+583 :                     i$ii+i$iq}{litilii$liidxi     inNlq}S!            
+584 :                     $ii+i$iq}{litilii$liidxi$     nNlq}S!             
+585 : 2                   
+585 : RESSTATE            
+585 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+586 : N->ii@              i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+586 : SAVESTATE:          5
+586 :                     i$ii+i$iq}{litilii$liidxi     ii@lq}S!            
+587 :                     $ii+i$iq}{litilii$liidxi$     i@lq}S!             
+588 : 2                   
+588 : RESSTATE            
+588 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+589 : N->ii@N             i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+589 : SAVESTATE:          5
+589 :                     i$ii+i$iq}{litilii$liidxi     ii@Nlq}S!           
+590 :                     $ii+i$iq}{litilii$liidxi$     i@Nlq}S!            
+591 : 2                   
+591 : RESSTATE            
+591 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+592 : N->il@              i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+592 : SAVESTATE:          5
+592 :                     i$ii+i$iq}{litilii$liidxi     il@lq}S!            
+593 :                     $ii+i$iq}{litilii$liidxi$     l@lq}S!             
+594 : 2                   
+594 : RESSTATE            
+594 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+595 : N->il@N             i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+595 : SAVESTATE:          5
+595 :                     i$ii+i$iq}{litilii$liidxi     il@Nlq}S!           
+596 :                     $ii+i$iq}{litilii$liidxi$     l@Nlq}S!            
+597 : 2                   
+597 : RESSTATE            
+597 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+598 : N->iq               i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+598 : SAVESTATE:          5
+598 :                     i$ii+i$iq}{litilii$liidxi     iqlq}S!             
+599 :                     $ii+i$iq}{litilii$liidxi$     qlq}S!              
+600 : 2                   
+600 : RESSTATE            
+600 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+601 : N->iqN              i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+601 : SAVESTATE:          5
+601 :                     i$ii+i$iq}{litilii$liidxi     iqNlq}S!            
+602 :                     $ii+i$iq}{litilii$liidxi$     qNlq}S!             
+603 : 2                   
+603 : RESSTATE            
+603 :                     i$ii+i$iq}{litilii$liidxi     Nlq}S!              
+604 : TNS_NORULECHAIN/NS_NORULE
+604 : RESSTATE            
+604 :                     li$ii+i$iq}{litilii$liidx     Nlq}S!              
+605 : N->lq               li$ii+i$iq}{litilii$liidx     Nlq}S!              
+605 : SAVESTATE:          4
+605 :                     li$ii+i$iq}{litilii$liidx     lqlq}S!             
+606 :                     i$ii+i$iq}{litilii$liidxi     qlq}S!              
+607 : 2                   
+607 : RESSTATE            
+607 :                     li$ii+i$iq}{litilii$liidx     Nlq}S!              
+608 : N->lq               li$ii+i$iq}{litilii$liidx     Nlq}S!              
+608 : SAVESTATE:          4
+608 :                     li$ii+i$iq}{litilii$liidx     lqlq}S!             
+609 :                     i$ii+i$iq}{litilii$liidxi     qlq}S!              
+610 : 2                   
+610 : RESSTATE            
+610 :                     li$ii+i$iq}{litilii$liidx     Nlq}S!              
+611 : TNS_NORULECHAIN/NS_NORULE
+611 : RESSTATE            
+611 :                     tili$ii+i$iq}{litilii$lii     Nlq}S!              
+612 : N->til@             tili$ii+i$iq}{litilii$lii     Nlq}S!              
+612 : SAVESTATE:          3
+612 :                     tili$ii+i$iq}{litilii$lii     til@lq}S!           
+613 :                     ili$ii+i$iq}{litilii$liid     il@lq}S!            
+614 :                     li$ii+i$iq}{litilii$liidx     l@lq}S!             
+615 :                     i$ii+i$iq}{litilii$liidxi     @lq}S!              
+616 : 2                   
+616 : RESSTATE            
+616 :                     tili$ii+i$iq}{litilii$lii     Nlq}S!              
+617 : N->til@N            tili$ii+i$iq}{litilii$lii     Nlq}S!              
+617 : SAVESTATE:          3
+617 :                     tili$ii+i$iq}{litilii$lii     til@Nlq}S!          
+618 :                     ili$ii+i$iq}{litilii$liid     il@Nlq}S!           
+619 :                     li$ii+i$iq}{litilii$liidx     l@Nlq}S!            
+620 :                     i$ii+i$iq}{litilii$liidxi     @Nlq}S!             
+621 : 2                   
+621 : RESSTATE            
+621 :                     tili$ii+i$iq}{litilii$lii     Nlq}S!              
+622 : TNS_NORULECHAIN/NS_NORULE
+622 : RESSTATE            
+622 :                     ti){tili$ii+i$iq}{litilii     W){Nlq}S!           
+623 : W->ti,W             ti){tili$ii+i$iq}{litilii     W){Nlq}S!           
+623 : SAVESTATE:          2
+623 :                     ti){tili$ii+i$iq}{litilii     ti,W){Nlq}S!        
+624 :                     i){tili$ii+i$iq}{litilii$     i,W){Nlq}S!         
+625 :                     ){tili$ii+i$iq}{litilii$l     ,W){Nlq}S!          
+626 : 2                   
+626 : RESSTATE            
+626 :                     ti){tili$ii+i$iq}{litilii     W){Nlq}S!           
+627 : TNS_NORULECHAIN/NS_NORULE
+627 : RESSTATE            
+627 :                     fti(ti){tili$ii+i$iq}{lit     S!                  
+628 : S->fti(W){lq}S      fti(ti){tili$ii+i$iq}{lit     S!                  
+628 : SAVESTATE:          1
+628 :                     fti(ti){tili$ii+i$iq}{lit     fti(W){lq}S!        
+629 :                     ti(ti){tili$ii+i$iq}{liti     ti(W){lq}S!         
+630 :                     i(ti){tili$ii+i$iq}{litil     i(W){lq}S!          
+631 :                     (ti){tili$ii+i$iq}{litili     (W){lq}S!           
+632 :                     ti){tili$ii+i$iq}{litilii     W){lq}S!            
+633 : W->ti               ti){tili$ii+i$iq}{litilii     W){lq}S!            
+633 : SAVESTATE:          2
+633 :                     ti){tili$ii+i$iq}{litilii     ti){lq}S!           
+634 :                     i){tili$ii+i$iq}{litilii$     i){lq}S!            
+635 :                     ){tili$ii+i$iq}{litilii$l     ){lq}S!             
+636 :                     {tili$ii+i$iq}{litilii$li     {lq}S!              
+637 :                     tili$ii+i$iq}{litilii$lii     lq}S!               
+638 : 2                   
+638 : RESSTATE            
+638 :                     ti){tili$ii+i$iq}{litilii     W){lq}S!            
+639 : W->ti,W             ti){tili$ii+i$iq}{litilii     W){lq}S!            
+639 : SAVESTATE:          2
+639 :                     ti){tili$ii+i$iq}{litilii     ti,W){lq}S!         
+640 :                     i){tili$ii+i$iq}{litilii$     i,W){lq}S!          
+641 :                     ){tili$ii+i$iq}{litilii$l     ,W){lq}S!           
+642 : 2                   
+642 : RESSTATE            
+642 :                     ti){tili$ii+i$iq}{litilii     W){lq}S!            
+643 : TNS_NORULECHAIN/NS_NORULE
+643 : RESSTATE            
+643 :                     fti(ti){tili$ii+i$iq}{lit     S!                  
+644 : TNS_NORULECHAIN/NS_NORULE
+645 : ------>NS_NORULE    
+600: строка 12,Неверная структура программы
+601: строка 10,Ошибочный оператор
+601: строка 10,Ошибочный оператор

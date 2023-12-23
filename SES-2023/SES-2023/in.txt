@@ -1,0 +1,39 @@
+#include string.lib
+main
+{
+'¬ведите строку дл€ проверки(макс длина 20 символов)' print
+string str[20]
+str read
+int len
+int i
+0 i $
+str length 
+len $
+while(i len <)
+{
+	if('{' str[i] compS)
+	{
+	'{'
+	'положена скобка' print
+	}
+	if('}' str[i] compS)
+	{
+	if(depth 1 - 0 =)
+	{
+		'неправильна€ строка1' print
+		0 return
+	}
+	drop
+	'дропнута скобка' print
+	}
+	i 1 +
+	i $
+	
+}
+
+if(depth 1 - 0 >)
+{
+	'неправильна€ строка2' print
+	0 return
+}
+}

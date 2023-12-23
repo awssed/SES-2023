@@ -1,0 +1,1 @@
+function int fact(int n)|{|	int b|	if(n 0 <)|	{|		0 return|	}|	if(n 0 =)|	{|		1 return|	}|	n n 1 - fact*|	b $|	b return|}|main|{|	int a|	a read|	a fact|	writeline|}|

@@ -1,0 +1,8 @@
+   id  datatype    idtype      Line     value     Scope      idTi
+ fact       INT         F         1         0         1
+    n       INT         P         1         0         fact         1
+    b       INT         V         3         0         fact         3
+   L0      BYTE         L         4         0         fact         4
+   L1      BYTE         L        10         1         fact        10
+ main       INT         F        16         0        16
+    a       INT         V        18         0         main        18
