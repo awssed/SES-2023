@@ -15,7 +15,7 @@
     <li>Stack-oriented programming language</li>
     <li>The entire grammar of the programming language is based on reverse Polish notation</li>
     <li>Implemented a preprocessor for connecting libraries and converting the infix form to the reverse form</li>
-    <li>Data types:integer, symbolic</li>
+    <li>Data types:integer,byte, symbolic</li>
     <li>Structures:string, array</li>
     <li>Literals: integer, boolean, string</li>
     <li>Mathematical operators</li>
